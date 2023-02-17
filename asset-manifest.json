@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Lilly183/TorontoCupcake/static/css/main.073c9b0a.css",
+    "main.js": "/Lilly183/TorontoCupcake/static/js/main.6375fbec.js",
+    "static/js/787.9384989c.chunk.js": "/Lilly183/TorontoCupcake/static/js/787.9384989c.chunk.js",
+    "static/media/logo.svg": "/Lilly183/TorontoCupcake/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Lilly183/TorontoCupcake/index.html",
+    "main.073c9b0a.css.map": "/Lilly183/TorontoCupcake/static/css/main.073c9b0a.css.map",
+    "main.6375fbec.js.map": "/Lilly183/TorontoCupcake/static/js/main.6375fbec.js.map",
+    "787.9384989c.chunk.js.map": "/Lilly183/TorontoCupcake/static/js/787.9384989c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.6375fbec.js"
+  ]
+}
