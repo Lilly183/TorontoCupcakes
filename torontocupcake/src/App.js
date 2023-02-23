@@ -15,7 +15,6 @@ const App = () =>
     <OffCanvasMenu/>
     <Header/>
     <Home/>
-    {/* <Shop/> */}
     <Footer/>
   </div>
   )
