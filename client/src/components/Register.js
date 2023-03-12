@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import InputGroup from './InputGroup';
 import Axios from "axios";
+import InputGroup from './InputGroup';
 
 const Register = () => 
 {
@@ -50,7 +50,7 @@ const Register = () =>
                     <div className="register-form p-4 bg-dark border border-dark">
                         <form id="registerForm">
                             <InputGroup
-                                id = "username"
+                                name = "username"
                                 heading = "Username"
                                 inputType = "text"
                                 required = {true}
@@ -59,7 +59,7 @@ const Register = () =>
                                 onChangeHandler = {handleChange}
                             />
                             <InputGroup
-                                id = "password"
+                                name = "password"
                                 heading = "Password"
                                 inputType = "password"
                                 required = {true}
@@ -68,7 +68,7 @@ const Register = () =>
                                 onChangeHandler = {handleChange}
                             />
                             <InputGroup
-                                id = "email"
+                                name = "email"
                                 heading = "Email"
                                 inputType = "email"
                                 required = {true}
@@ -77,7 +77,7 @@ const Register = () =>
                                 onChangeHandler = {handleChange}
                             />
                             <InputGroup
-                                id = "firstName"
+                                name = "firstName"
                                 heading = "First Name"
                                 inputType = "text"
                                 required = {false}
@@ -86,7 +86,7 @@ const Register = () =>
                                 onChangeHandler = {handleChange}
                             />
                             <InputGroup
-                                id = "lastName"
+                                name = "lastName"
                                 heading = "Last Name"
                                 inputType = "text"
                                 required = {false}

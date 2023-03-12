@@ -1,6 +1,8 @@
 const express = require("express");
 const mysql = require("mysql");
+const bcrypt = require("bcrypt");
 const app = express();
+const saltRounds = 10;
 
 app.use(express.json());
 
@@ -12,7 +14,7 @@ const db = mysql.createPool
     database: "brtploi5rrby99qjfamm"
 });
 
-app.post("/api/registerUser", (req, res) =>
+app.post("/api/registerUser", async (req, res) =>
 {
     const username = req.body.username;
     const password = req.body.password;
@@ -20,6 +22,9 @@ app.post("/api/registerUser", (req, res) =>
     const firstName = req.body.firstName;
     const lastName = req.body.lastName;
     const isAdmin = false;
+
+    // Hash the password via bcrypt (Never store passwords in plain text!):
+    const hashPassword = await bcrypt.hash(password, saltRounds);
 
     const registerUserSQL = 
     `INSERT INTO USER 
@@ -31,7 +36,7 @@ app.post("/api/registerUser", (req, res) =>
     db.query(registerUserSQL, 
     [
         username, 
-        password,
+        hashPassword,
         email,
         firstName,
         lastName,
