@@ -5,7 +5,7 @@ const Footer = () =>
 {
   return (
     // Footer Section Begin
-    <footer className="footer set-bg" data-setbg={imgRelPath + "footer-bg.jpg"}>
+    <footer className="footer set-bg w-100" data-setbg={imgRelPath + "footer-bg.jpg"}>
         <div className="container">
             <div className="row">
                 <div className="col-lg-4 col-md-6 col-sm-6">

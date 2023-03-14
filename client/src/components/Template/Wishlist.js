@@ -1,29 +1,14 @@
 import React from 'react';
 import imgRelPath from './ImgRelPath';
+import Breadcrumb from './Breadcrumb';
 
 const Wishlist = () => 
 {
   return (
     <div>
-        {/* <!-- Breadcrumb Begin --> */}
-        <div className="breadcrumb-option">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-6 col-md-6 col-sm-6">
-                        <div className="breadcrumb__text">
-                            <h2>Wishlist</h2>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6">
-                        <div className="breadcrumb__links">
-                            <a href="./index.html">Home</a>
-                            <span>Wishlist</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {/* <!-- Breadcrumb End --> */}
+        <Breadcrumb 
+            text = "Wishlist" 
+        />
 
         {/* <!-- Wishlist Section Begin --> */}
         <section className="wishlist spad">

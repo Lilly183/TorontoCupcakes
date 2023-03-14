@@ -1,29 +1,14 @@
 import React from 'react';
 import imgRelPath from './ImgRelPath';
+import Breadcrumb from './Breadcrumb';
 
 const ShoppingCart = () => 
 {
   return (
     <div>
-        {/* <!-- Breadcrumb Begin --> */}
-        <div className="breadcrumb-option">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-6 col-md-6 col-sm-6">
-                        <div className="breadcrumb__text">
-                            <h2>Shopping cart</h2>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6">
-                        <div className="breadcrumb__links">
-                            <a href="./index.html">Home</a>
-                            <span>Shopping cart</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {/* <!-- Breadcrumb End --> */}
+        <Breadcrumb 
+            text = "Shopping cart" 
+        />
 
         {/* <!-- Shopping Cart Section Begin --> */}
         <section className="shopping-cart spad">
@@ -54,7 +39,7 @@ const ShoppingCart = () =>
                                         <td className="quantity__item">
                                             <div className="quantity">
                                                 <div className="pro-qty">
-                                                    <input type="text" value="1"/>
+                                                    <input type="text" defaultValue={"1"}/>
                                                 </div>
                                             </div>
                                         </td>
@@ -74,7 +59,7 @@ const ShoppingCart = () =>
                                         <td className="quantity__item">
                                             <div className="quantity">
                                                 <div className="pro-qty">
-                                                    <input type="text" value="1"/>
+                                                    <input type="text" defaultValue={"1"}/>
                                                 </div>
                                             </div>
                                         </td>
@@ -94,7 +79,7 @@ const ShoppingCart = () =>
                                         <td className="quantity__item">
                                             <div className="quantity">
                                                 <div className="pro-qty">
-                                                    <input type="text" value="1"/>
+                                                    <input type="text" defaultValue={"1"}/>
                                                 </div>
                                             </div>
                                         </td>
@@ -114,7 +99,7 @@ const ShoppingCart = () =>
                                         <td className="quantity__item">
                                             <div className="quantity">
                                                 <div className="pro-qty">
-                                                    <input type="text" value="1"/>
+                                                    <input type="text" defaultValue={"1"}/>
                                                 </div>
                                             </div>
                                         </td>

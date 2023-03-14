@@ -1,30 +1,15 @@
 import React from 'react';
 import imgRelPath from './ImgRelPath';
+import Breadcrumb from './Breadcrumb';
 
 const Blog = () => 
 {
   return (
     <div>
-        {/* <!-- Breadcrumb Begin --> */}
-        <div className="breadcrumb-option">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-6 col-md-6 col-sm-6">
-                        <div className="breadcrumb__text">
-                            <h2>Blog</h2>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6">
-                        <div className="breadcrumb__links">
-                            <a href="./index.html">Home</a>
-                            <span>Blog</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {/* <!-- Breadcrumb End --> */}
-
+        <Breadcrumb 
+            text = "Blog" 
+        />
+        
         {/* <!-- Blog Section Begin --> */}
         <section className="blog spad">
             <div className="container">

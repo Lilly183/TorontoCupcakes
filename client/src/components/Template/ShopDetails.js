@@ -74,7 +74,7 @@ const ShopDetails = () =>
                             <div className="product__details__option">
                                 <div className="quantity">
                                     <div className="pro-qty">
-                                        <input type="text" value="2"/>
+                                        <input type="text" defaultValue={"2"}/>
                                     </div>
                                 </div>
                                 <a href="#" className="primary-btn">Add to cart</a>

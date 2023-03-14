@@ -1,0 +1,109 @@
+/*---------------------
+    Blog
+-----------------------*/
+
+.blog
+{
+  overflow: hidden;
+}
+
+.blog__item
+{
+  margin-bottom: 70px;
+}
+
+.blog__item__pic
+{
+  height: 385px;
+  position: relative;
+}
+
+.blog__item__pic .blog__pic__inner
+{
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  width: calc(100% - 40px);
+  padding: 30px 0 0;
+}
+
+.blog__item__pic .blog__pic__inner .label
+{
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  background: #f08632;
+  display: inline-block;
+  padding: 4px 15px 2px;
+}
+
+.blog__item__pic .blog__pic__inner ul
+{
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.blog__item__pic .blog__pic__inner ul li
+{
+  list-style: none;
+  font-size: 12px;
+  color: #888888;
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+
+.blog__item__pic .blog__pic__inner ul li span
+{
+  color: #111111;
+}
+
+.blog__item__pic .blog__pic__inner ul li:after
+{
+  position: absolute;
+  right: -14px;
+  top: 0;
+  content: "|";
+}
+
+.blog__item__pic .blog__pic__inner ul li:last-child
+{
+  margin-right: 0;
+}
+
+.blog__item__pic .blog__pic__inner ul li:last-child:after
+{
+  display: none;
+}
+
+.blog__item__text
+{
+  padding-top: 42px;
+}
+
+.blog__item__text h2
+{
+  font-family: "Playfair Display", serif;
+  color: #111111;
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.blog__item__text p
+{
+  color: #444444;
+  margin-bottom: 26px;
+}
+
+.blog__item__text a
+{
+  color: #111111;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #f08632;
+}
