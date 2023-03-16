@@ -77,8 +77,8 @@ const ShopDetails = () =>
                                         <input type="text" defaultValue={"2"}/>
                                     </div>
                                 </div>
-                                <a href="#" className="primary-btn">Add to cart</a>
-                                <a href="#" className="heart__btn"><span className="icon_heart_alt"></span></a>
+                                <a href="/" className="primary-btn">Add to cart</a>
+                                <a href="/" className="heart__btn"><span className="icon_heart_alt"></span></a>
                             </div>
                         </div>
                     </div>
@@ -156,10 +156,10 @@ const ShopDetails = () =>
                                     </div>
                                 </div>
                                 <div className="product__item__text">
-                                    <h6><a href="#">Dozen Cupcakes</a></h6>
+                                    <h6><a href="/">Dozen Cupcakes</a></h6>
                                     <div className="product__item__price">$32.00</div>
                                     <div className="cart_add">
-                                        <a href="#">Add to cart</a>
+                                        <a href="/">Add to cart</a>
                                     </div>
                                 </div>
                             </div>
@@ -172,10 +172,10 @@ const ShopDetails = () =>
                                     </div>
                                 </div>
                                 <div className="product__item__text">
-                                    <h6><a href="#">Cookies and Cream</a></h6>
+                                    <h6><a href="/">Cookies and Cream</a></h6>
                                     <div className="product__item__price">$30.00</div>
                                     <div className="cart_add">
-                                        <a href="#">Add to cart</a>
+                                        <a href="/">Add to cart</a>
                                     </div>
                                 </div>
                             </div>
@@ -188,10 +188,10 @@ const ShopDetails = () =>
                                     </div>
                                 </div>
                                 <div className="product__item__text">
-                                    <h6><a href="#">Gluten Free Mini Dozen</a></h6>
+                                    <h6><a href="/">Gluten Free Mini Dozen</a></h6>
                                     <div className="product__item__price">$31.00</div>
                                     <div className="cart_add">
-                                        <a href="#">Add to cart</a>
+                                        <a href="/">Add to cart</a>
                                     </div>
                                 </div>
                             </div>
@@ -204,10 +204,10 @@ const ShopDetails = () =>
                                     </div>
                                 </div>
                                 <div className="product__item__text">
-                                    <h6><a href="#">Cookie Dough</a></h6>
+                                    <h6><a href="/">Cookie Dough</a></h6>
                                     <div className="product__item__price">$25.00</div>
                                     <div className="cart_add">
-                                        <a href="#">Add to cart</a>
+                                        <a href="/">Add to cart</a>
                                     </div>
                                 </div>
                             </div>
@@ -220,10 +220,10 @@ const ShopDetails = () =>
                                     </div>
                                 </div>
                                 <div className="product__item__text">
-                                    <h6><a href="#">Vanilla Salted Caramel</a></h6>
+                                    <h6><a href="/">Vanilla Salted Caramel</a></h6>
                                     <div className="product__item__price">$05.00</div>
                                     <div className="cart_add">
-                                        <a href="#">Add to cart</a>
+                                        <a href="/">Add to cart</a>
                                     </div>
                                 </div>
                             </div>
@@ -236,10 +236,10 @@ const ShopDetails = () =>
                                     </div>
                                 </div>
                                 <div className="product__item__text">
-                                    <h6><a href="#">German Chocolate</a></h6>
+                                    <h6><a href="/">German Chocolate</a></h6>
                                     <div className="product__item__price">$14.00</div>
                                     <div className="cart_add">
-                                        <a href="#">Add to cart</a>
+                                        <a href="/">Add to cart</a>
                                     </div>
                                 </div>
                             </div>

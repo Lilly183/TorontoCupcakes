@@ -14,7 +14,7 @@ const Home = () =>
                             <div className="col-lg-8">
                                 <div className="hero__text">
                                     <h2>Making your life sweeter one bite at a time!</h2>
-                                    <a href="#" className="primary-btn">Our cakes</a>
+                                    <a href="/" className="primary-btn">Our cakes</a>
                                 </div>
                             </div>
                         </div>
@@ -26,7 +26,7 @@ const Home = () =>
                             <div className="col-lg-8">
                                 <div className="hero__text">
                                     <h2>Making your life sweeter one bite at a time!</h2>
-                                    <a href="#" className="primary-btn">Our cakes</a>
+                                    <a href="/" className="primary-btn">Our cakes</a>
                                 </div>
                             </div>
                         </div>
@@ -139,10 +139,10 @@ const Home = () =>
                                 </div>
                             </div>
                             <div className="product__item__text">
-                                <h6><a href="#">Dozen Cupcakes</a></h6>
+                                <h6><a href="/">Dozen Cupcakes</a></h6>
                                 <div className="product__item__price">$32.00</div>
                                 <div className="cart_add">
-                                    <a href="#">Add to cart</a>
+                                    <a href="/">Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -155,10 +155,10 @@ const Home = () =>
                                 </div>
                             </div>
                             <div className="product__item__text">
-                                <h6><a href="#">Cookies and Cream</a></h6>
+                                <h6><a href="/">Cookies and Cream</a></h6>
                                 <div className="product__item__price">$30.00</div>
                                 <div className="cart_add">
-                                    <a href="#">Add to cart</a>
+                                    <a href="/">Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -171,10 +171,10 @@ const Home = () =>
                                 </div>
                             </div>
                             <div className="product__item__text">
-                                <h6><a href="#">Gluten Free Mini Dozen</a></h6>
+                                <h6><a href="/">Gluten Free Mini Dozen</a></h6>
                                 <div className="product__item__price">$31.00</div>
                                 <div className="cart_add">
-                                    <a href="#">Add to cart</a>
+                                    <a href="/">Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -187,10 +187,10 @@ const Home = () =>
                                 </div>
                             </div>
                             <div className="product__item__text">
-                                <h6><a href="#">Cookie Dough</a></h6>
+                                <h6><a href="/">Cookie Dough</a></h6>
                                 <div className="product__item__price">$25.00</div>
                                 <div className="cart_add">
-                                    <a href="#">Add to cart</a>
+                                    <a href="/">Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -203,10 +203,10 @@ const Home = () =>
                                 </div>
                             </div>
                             <div className="product__item__text">
-                                <h6><a href="#">Vanilla Salted Caramel</a></h6>
+                                <h6><a href="/">Vanilla Salted Caramel</a></h6>
                                 <div className="product__item__price">$05.00</div>
                                 <div className="cart_add">
-                                    <a href="#">Add to cart</a>
+                                    <a href="/">Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -219,10 +219,10 @@ const Home = () =>
                                 </div>
                             </div>
                             <div className="product__item__text">
-                                <h6><a href="#">German Chocolate</a></h6>
+                                <h6><a href="/">German Chocolate</a></h6>
                                 <div className="product__item__price">$14.00</div>
                                 <div className="cart_add">
-                                    <a href="#">Add to cart</a>
+                                    <a href="/">Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -235,10 +235,10 @@ const Home = () =>
                                 </div>
                             </div>
                             <div className="product__item__text">
-                                <h6><a href="#">Dulce De Leche</a></h6>
+                                <h6><a href="/">Dulce De Leche</a></h6>
                                 <div className="product__item__price">$32.00</div>
                                 <div className="cart_add">
-                                    <a href="#">Add to cart</a>
+                                    <a href="/">Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -251,10 +251,10 @@ const Home = () =>
                                 </div>
                             </div>
                             <div className="product__item__text">
-                                <h6><a href="#">Mississippi Mud</a></h6>
+                                <h6><a href="/">Mississippi Mud</a></h6>
                                 <div className="product__item__price">$08.00</div>
                                 <div className="cart_add">
-                                    <a href="#">Add to cart</a>
+                                    <a href="/">Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -308,7 +308,7 @@ const Home = () =>
                     </div>
                     <div className="col-lg-5 col-md-5 col-sm-5">
                         <div className="team__btn">
-                            <a href="#" className="primary-btn">Join Us</a>
+                            <a href="/" className="primary-btn">Join Us</a>
                         </div>
                     </div>
                 </div>
@@ -319,10 +319,10 @@ const Home = () =>
                                 <h6>Randy Butler</h6>
                                 <span>Decorater</span>
                                 <div className="team__item__social">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                    <a href="#"><i className="fa fa-instagram"></i></a>
-                                    <a href="#"><i className="fa fa-youtube-play"></i></a>
+                                    <a href="/"><i className="fa fa-facebook"></i></a>
+                                    <a href="/"><i className="fa fa-twitter"></i></a>
+                                    <a href="/"><i className="fa fa-instagram"></i></a>
+                                    <a href="/"><i className="fa fa-youtube-play"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -333,10 +333,10 @@ const Home = () =>
                                 <h6>Randy Butler</h6>
                                 <span>Decorater</span>
                                 <div className="team__item__social">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                    <a href="#"><i className="fa fa-instagram"></i></a>
-                                    <a href="#"><i className="fa fa-youtube-play"></i></a>
+                                    <a href="/"><i className="fa fa-facebook"></i></a>
+                                    <a href="/"><i className="fa fa-twitter"></i></a>
+                                    <a href="/"><i className="fa fa-instagram"></i></a>
+                                    <a href="/"><i className="fa fa-youtube-play"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -347,10 +347,10 @@ const Home = () =>
                                 <h6>Randy Butler</h6>
                                 <span>Decorater</span>
                                 <div className="team__item__social">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                    <a href="#"><i className="fa fa-instagram"></i></a>
-                                    <a href="#"><i className="fa fa-youtube-play"></i></a>
+                                    <a href="/"><i className="fa fa-facebook"></i></a>
+                                    <a href="/"><i className="fa fa-twitter"></i></a>
+                                    <a href="/"><i className="fa fa-instagram"></i></a>
+                                    <a href="/"><i className="fa fa-youtube-play"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -361,10 +361,10 @@ const Home = () =>
                                 <h6>Randy Butler</h6>
                                 <span>Decorater</span>
                                 <div className="team__item__social">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                    <a href="#"><i className="fa fa-instagram"></i></a>
-                                    <a href="#"><i className="fa fa-youtube-play"></i></a>
+                                    <a href="/"><i className="fa fa-facebook"></i></a>
+                                    <a href="/"><i className="fa fa-twitter"></i></a>
+                                    <a href="/"><i className="fa fa-instagram"></i></a>
+                                    <a href="/"><i className="fa fa-youtube-play"></i></a>
                                 </div>
                             </div>
                         </div>

@@ -21,15 +21,15 @@ const Footer = () =>
                 <div className="col-lg-4 col-md-6 col-sm-6">
                     <div className="footer__about">
                         <div className="footer__logo">
-                            <a href="#"><img src={imgRelPath + "footer-logo.png"} alt=""/></a>
+                            <a href="/"><img src={imgRelPath + "footer-logo.png"} alt=""/></a>
                         </div>
                         <p>Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore dolore magna aliqua.</p>
                         <div className="footer__social">
-                            <a href="#"><i className="fa fa-facebook"></i></a>
-                            <a href="#"><i className="fa fa-twitter"></i></a>
-                            <a href="#"><i className="fa fa-instagram"></i></a>
-                            <a href="#"><i className="fa fa-youtube-play"></i></a>
+                            <a href="/"><i className="fa fa-facebook"></i></a>
+                            <a href="/"><i className="fa fa-twitter"></i></a>
+                            <a href="/"><i className="fa fa-instagram"></i></a>
+                            <a href="/"><i className="fa fa-youtube-play"></i></a>
                         </div>
                     </div>
                 </div>
@@ -58,9 +58,9 @@ const Footer = () =>
                     <div className="col-lg-5">
                         <div className="copyright__widget">
                             <ul>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Site Map</a></li>
+                                <li><a href="/">Privacy Policy</a></li>
+                                <li><a href="/">Terms & Conditions</a></li>
+                                <li><a href="/">Site Map</a></li>
                             </ul>
                         </div>
                     </div>

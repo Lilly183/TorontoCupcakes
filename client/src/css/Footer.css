@@ -1,0 +1,33 @@
+/*--------------------- */
+/* Footer               */
+/* ---------------------*/
+
+:root
+{
+  --themeColor2: #ffffff;
+  --themeColor7: #a4a4a4;
+}
+
+.footer h6
+{
+  color: var(--themeColor2);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.footer__support ul li, .footer__legal ul li
+{
+  list-style: none;
+  font-size: 14px;
+}
+
+.footer__support ul li a, .footer__legal ul li a
+{
+  color: var(--themeColor7);
+}
+
+.footer__support ul li a:hover, .footer__legal ul li a:hover
+{
+  color: var(--themeColor2);
+}

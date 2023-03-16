@@ -32,10 +32,10 @@ const BlogDetails = () =>
                     <div className="col-lg-8">
                         <div className="blog__details__content">
                             <div className="blog__details__share">
-                                <a href="#" className="facebook"><i className="fa fa-facebook"></i></a>
-                                <a href="#" className="twitter"><i className="fa fa-twitter"></i></a>
-                                <a href="#" className="youtube"><i className="fa fa-youtube-play"></i></a>
-                                <a href="#" className="instagram"><i className="fa fa-instagram"></i></a>
+                                <a href="/" className="facebook"><i className="fa fa-facebook"></i></a>
+                                <a href="/" className="twitter"><i className="fa fa-twitter"></i></a>
+                                <a href="/" className="youtube"><i className="fa fa-youtube-play"></i></a>
+                                <a href="/" className="instagram"><i className="fa fa-instagram"></i></a>
                             </div>
                             <div className="blog__details__text">
                                 <p>The cast brass and cast stainless steel burners have the smallest burrs — by far. This
@@ -107,7 +107,7 @@ const BlogDetails = () =>
                                 </ul>
                             </div>
                             <div className="blog__details__print">
-                                <a href="#" className="primary-btn"><i className="fa fa-print"></i> Print recipe</a>
+                                <a href="/" className="primary-btn"><i className="fa fa-print"></i> Print recipe</a>
                             </div>
                             <div className="blog__details__text">
                                 <p>Molded ports in cast burners seem like they would be a good idea, but there is
@@ -120,21 +120,21 @@ const BlogDetails = () =>
                             </div>
                             <div className="blog__details__tags">
                                 <span>Tag</span>
-                                <a href="#">Food</a>
-                                <a href="#">Material</a>
-                                <a href="#">Cakes</a>
-                                <a href="#">Baking</a>
+                                <a href="/">Food</a>
+                                <a href="/">Material</a>
+                                <a href="/">Cakes</a>
+                                <a href="/">Baking</a>
                             </div>
                             <div className="blog__details__btns">
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-6">
                                         <div className="blog__details__btns__item">
-                                            <a href="#"><span className="arrow_carrot-left"></span> Previous posts</a>
+                                            <a href="/"><span className="arrow_carrot-left"></span> Previous posts</a>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6">
                                         <div className="blog__details__btns__item blog__details__btns__item--next">
-                                            <a href="#">Next posts <span className="arrow_carrot-right"></span></a>
+                                            <a href="/">Next posts <span className="arrow_carrot-right"></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -146,10 +146,10 @@ const BlogDetails = () =>
                                 <div className="blog__details__author__text">
                                     <h6>Mitchell Holland</h6>
                                     <div className="blog__details__author__social">
-                                        <a href="#"><i className="fa fa-facebook"></i></a>
-                                        <a href="#"><i className="fa fa-twitter"></i></a>
-                                        <a href="#"><i className="fa fa-instagram"></i></a>
-                                        <a href="#"><i className="fa fa-youtube-play"></i></a>
+                                        <a href="/"><i className="fa fa-facebook"></i></a>
+                                        <a href="/"><i className="fa fa-twitter"></i></a>
+                                        <a href="/"><i className="fa fa-instagram"></i></a>
+                                        <a href="/"><i className="fa fa-youtube-play"></i></a>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.</p>
@@ -157,7 +157,7 @@ const BlogDetails = () =>
                             </div>
                             <div className="blog__details__comment">
                                 <h5>03 Comment</h5>
-                                <a href="#" className="primary-btn">Leave a comment</a>
+                                <a href="/" className="primary-btn">Leave a comment</a>
                                 <div className="blog__details__comment__item">
                                     <div className="blog__details__comment__item__pic">
                                         <img src={imgRelPath + "blog/details/comment-1.jpg"} alt=""/>
@@ -168,8 +168,8 @@ const BlogDetails = () =>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua vel facilisis.</p>
                                         <div className="blog__details__comment__btns">
-                                            <a href="#">Reply</a>
-                                            <a href="#">Like</a>
+                                            <a href="/">Reply</a>
+                                            <a href="/">Like</a>
                                         </div>
                                     </div>
                                 </div>
@@ -183,8 +183,8 @@ const BlogDetails = () =>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua vel facilisis.</p>
                                         <div className="blog__details__comment__btns">
-                                            <a href="#">Reply</a>
-                                            <a href="#">Like</a>
+                                            <a href="/">Reply</a>
+                                            <a href="/">Like</a>
                                         </div>
                                     </div>
                                 </div>
@@ -198,8 +198,8 @@ const BlogDetails = () =>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua vel facilisis.</p>
                                         <div className="blog__details__comment__btns">
-                                            <a href="#">Reply</a>
-                                            <a href="#">Like</a>
+                                            <a href="/">Reply</a>
+                                            <a href="/">Like</a>
                                         </div>
                                     </div>
                                 </div>

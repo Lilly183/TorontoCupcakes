@@ -225,7 +225,7 @@ const About = () =>
                     </div>
                     <div className="col-lg-5 col-md-5 col-sm-5">
                         <div className="team__btn">
-                            <a href="#" className="primary-btn">Join Us</a>
+                            <a href="/" className="primary-btn">Join Us</a>
                         </div>
                     </div>
                 </div>
@@ -236,10 +236,10 @@ const About = () =>
                                 <h6>Randy Butler</h6>
                                 <span>Decorater</span>
                                 <div className="team__item__social">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                    <a href="#"><i className="fa fa-instagram"></i></a>
-                                    <a href="#"><i className="fa fa-youtube-play"></i></a>
+                                    <a href="/"><i className="fa fa-facebook"></i></a>
+                                    <a href="/"><i className="fa fa-twitter"></i></a>
+                                    <a href="/"><i className="fa fa-instagram"></i></a>
+                                    <a href="/"><i className="fa fa-youtube-play"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -250,10 +250,10 @@ const About = () =>
                                 <h6>Randy Butler</h6>
                                 <span>Decorater</span>
                                 <div className="team__item__social">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                    <a href="#"><i className="fa fa-instagram"></i></a>
-                                    <a href="#"><i className="fa fa-youtube-play"></i></a>
+                                    <a href="/"><i className="fa fa-facebook"></i></a>
+                                    <a href="/"><i className="fa fa-twitter"></i></a>
+                                    <a href="/"><i className="fa fa-instagram"></i></a>
+                                    <a href="/"><i className="fa fa-youtube-play"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -264,10 +264,10 @@ const About = () =>
                                 <h6>Randy Butler</h6>
                                 <span>Decorater</span>
                                 <div className="team__item__social">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                    <a href="#"><i className="fa fa-instagram"></i></a>
-                                    <a href="#"><i className="fa fa-youtube-play"></i></a>
+                                    <a href="/"><i className="fa fa-facebook"></i></a>
+                                    <a href="/"><i className="fa fa-twitter"></i></a>
+                                    <a href="/"><i className="fa fa-instagram"></i></a>
+                                    <a href="/"><i className="fa fa-youtube-play"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -278,10 +278,10 @@ const About = () =>
                                 <h6>Randy Butler</h6>
                                 <span>Decorater</span>
                                 <div className="team__item__social">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                    <a href="#"><i className="fa fa-instagram"></i></a>
-                                    <a href="#"><i className="fa fa-youtube-play"></i></a>
+                                    <a href="/"><i className="fa fa-facebook"></i></a>
+                                    <a href="/"><i className="fa fa-twitter"></i></a>
+                                    <a href="/"><i className="fa fa-instagram"></i></a>
+                                    <a href="/"><i className="fa fa-youtube-play"></i></a>
                                 </div>
                             </div>
                         </div>

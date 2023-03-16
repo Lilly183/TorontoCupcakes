@@ -22,10 +22,10 @@ const Class = () =>
                                         <div className="label">$35.00</div>
                                     </div>
                                     <div className="class__item__text">
-                                        <h5><a href="#">ADVANCED BAKING COURSE</a></h5>
+                                        <h5><a href="/">ADVANCED BAKING COURSE</a></h5>
                                         <span>Wed 08 Apr 2020; 6.30pm - 9.30pm</span>
                                         <p>Professional course: cook’s certificate in food & wine (six weeks full-time)</p>
-                                        <a href="#" className="read_more">Read more</a>
+                                        <a href="/" className="read_more">Read more</a>
                                     </div>
                                 </div>
                             </div>
@@ -35,10 +35,10 @@ const Class = () =>
                                         <div className="label">$35.00</div>
                                     </div>
                                     <div className="class__item__text">
-                                        <h5><a href="#">TEEN COOKING CAMP</a></h5>
+                                        <h5><a href="/">TEEN COOKING CAMP</a></h5>
                                         <span>Wed 08 Apr 2020; 6.30pm - 9.30pm</span>
                                         <p>Professional course: cook’s certificate in food & wine (six weeks full-time)</p>
-                                        <a href="#" className="read_more">Read more</a>
+                                        <a href="/" className="read_more">Read more</a>
                                     </div>
                                 </div>
                             </div>
@@ -48,10 +48,10 @@ const Class = () =>
                                         <div className="label">$35.00</div>
                                     </div>
                                     <div className="class__item__text">
-                                        <h5><a href="#">THE ULTIMATE BAKING COURSE</a></h5>
+                                        <h5><a href="/">THE ULTIMATE BAKING COURSE</a></h5>
                                         <span>Wed 08 Apr 2020; 6.30pm - 9.30pm</span>
                                         <p>Professional course: cook’s certificate in food & wine (six weeks full-time)</p>
-                                        <a href="#" className="read_more">Read more</a>
+                                        <a href="/" className="read_more">Read more</a>
                                     </div>
                                 </div>
                             </div>
@@ -61,10 +61,10 @@ const Class = () =>
                                         <div className="label">$35.00</div>
                                     </div>
                                     <div className="class__item__text">
-                                        <h5><a href="#">KIDS BAKING COURSE</a></h5>
+                                        <h5><a href="/">KIDS BAKING COURSE</a></h5>
                                         <span>Wed 08 Apr 2020; 6.30pm - 9.30pm</span>
                                         <p>Professional course: cook’s certificate in food & wine (six weeks full-time)</p>
-                                        <a href="#" className="read_more">Read more</a>
+                                        <a href="/" className="read_more">Read more</a>
                                     </div>
                                 </div>
                             </div>
@@ -74,10 +74,10 @@ const Class = () =>
                                         <div className="label">$35.00</div>
                                     </div>
                                     <div className="class__item__text">
-                                        <h5><a href="#">THE ULTIMATE BAKING COURSE</a></h5>
+                                        <h5><a href="/">THE ULTIMATE BAKING COURSE</a></h5>
                                         <span>Wed 08 Apr 2020; 6.30pm - 9.30pm</span>
                                         <p>Professional course: cook’s certificate in food & wine (six weeks full-time)</p>
-                                        <a href="#" className="read_more">Read more</a>
+                                        <a href="/" className="read_more">Read more</a>
                                     </div>
                                 </div>
                             </div>
@@ -87,19 +87,19 @@ const Class = () =>
                                         <div className="label">$35.00</div>
                                     </div>
                                     <div className="class__item__text">
-                                        <h5><a href="#">KIDS BAKING COURSE</a></h5>
+                                        <h5><a href="/">KIDS BAKING COURSE</a></h5>
                                         <span>Wed 08 Apr 2020; 6.30pm - 9.30pm</span>
                                         <p>Professional course: cook’s certificate in food & wine (six weeks full-time)</p>
-                                        <a href="#" className="read_more">Read more</a>
+                                        <a href="/" className="read_more">Read more</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="shop__pagination">
-                            <a href="#">1</a>
-                            <a href="#">2</a>
-                            <a href="#">3</a>
-                            <a href="#"><span className="arrow_carrot-right"></span></a>
+                            <a href="/">1</a>
+                            <a href="/">2</a>
+                            <a href="/">3</a>
+                            <a href="/"><span className="arrow_carrot-right"></span></a>
                         </div>
                     </div>
                     <div className="col-lg-4">

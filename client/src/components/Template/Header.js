@@ -25,7 +25,7 @@ const Header = () =>
                                             <li>ENG</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Sign in</a> <span className="arrow_carrot-down"></span></li>
+                                    <li><a href="/">Sign in</a> <span className="arrow_carrot-down"></span></li>
                                 </ul>
                             </div>
                             <div className="header__logo">
@@ -33,11 +33,11 @@ const Header = () =>
                             </div>
                             <div className="header__top__right">
                                 <div className="header__top__right__links">
-                                    <a href="#" className="search-switch"><img src={imgRelPath + "icon/search.png"} alt=""/></a>
-                                    <a href="#"><img src={imgRelPath + "icon/heart.png"} alt=""/></a>
+                                    <a href="/" className="search-switch"><img src={imgRelPath + "icon/search.png"} alt=""/></a>
+                                    <a href="/"><img src={imgRelPath + "icon/heart.png"} alt=""/></a>
                                 </div>
                                 <div className="header__top__right__cart">
-                                    <a href="#"><img src={imgRelPath + "icon/cart.png"} alt=""/> <span>0</span></a>
+                                    <a href="/"><img src={imgRelPath + "icon/cart.png"} alt=""/> <span>0</span></a>
                                     <div className="cart__price">Cart: <span>$0.00</span></div>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@ const Header = () =>
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./about.html">About</a></li>
                             <li><a href="./shop.html">Shop</a></li>
-                            <li><a href="#">Pages</a>
+                            <li><a href="/">Pages</a>
                                 <ul className="dropdown">
                                     <li><a href="./shop-details.html">Shop Details</a></li>
                                     <li><a href="./shoping-cart.html">Shoping Cart</a></li>

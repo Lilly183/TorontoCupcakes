@@ -1,0 +1,25 @@
+/*--------------------- */
+/* Social Media Link    */
+/* ---------------------*/
+
+:root
+{
+  --themeColor1: #E91E63;
+}
+
+.social__media__link
+{
+  background: rgba(225, 225, 225, 0.1);
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  line-height: 45px;
+  font-size: 1.75rem;
+}
+
+.social__media__link:hover
+{
+  background: var(--themeColor1);
+  transform: scale(1.2);
+  transition: 0.2s ease;
+}

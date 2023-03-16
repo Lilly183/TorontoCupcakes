@@ -61,29 +61,45 @@ const Register = () =>
     );
 
     return (
-        <div className="container-fluid">
-            <div className="row justify-content-center">
-                <div className="col-md-7">
-                    
-                    <div className="row mb-5">
-                        <div className="col-12">
-                            <h2 className="site-section-heading text-center pt-5">Register</h2>
+
+        <main className="bg-dark">
+            <section className="spad bg-secondary">
+                <div className="container bg-success">
+                    <div className="row bg-danger">
+                        <div className="col-lg-12">
+
+                            <div className="row mb-5">
+                                <div className="col-12">
+                                    <h2 className="site-section-heading text-center pt-5">Register</h2>
+                                </div>
+                            </div>
+
+
+                            <div className="container-fluid">
+                                <div className="row justify-content-center">
+                                    <div className="col-md-7">
+                                        
+                                        <form id="registerForm" className="register-form p-4 bg-dark border border-dark" onSubmit={handleSubmit}>
+                                            {/* <!-- Register Form Inputs --> */}
+                                            {registerFormInputs}
+                                            {/* <!-- Register Form Submit Button --> */}
+                                            <div className="row form-group text-center">
+                                                <div className="col-md-12">
+                                                    <button type="submit" className="btn btn-primary btn-lg btn-block mt-3 w-50">Register Now</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
-
-                    <form id="registerForm" className="register-form p-4 bg-dark border border-dark" onSubmit={handleSubmit}>
-                        {/* <!-- Register Form Inputs --> */}
-                        {registerFormInputs}
-                        {/* <!-- Register Form Submit Button --> */}
-                        <div className="row form-group text-center">
-                            <div className="col-md-12">
-                                <button type="submit" className="btn btn-primary btn-lg btn-block mt-3 w-50">Register Now</button>
-                            </div>
-                        </div>
-                    </form>
                 </div>
-            </div>
-        </div>
+            </section>
+        </main>
+
     )
 }
 

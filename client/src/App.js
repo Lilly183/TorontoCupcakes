@@ -1,12 +1,12 @@
 import React from 'react';
 
 import Preloader from './components/template/Preloader';
-import OffCanvasMenu from './components/template/OffCanvasMenu';
-import Header from './components/template/Header';
+import OffCanvasMenu from './components/OffCanvasMenu';
+import Header from './components/Header';
 import Skeleton from './components/Skeleton';
-import Footer from './components/template/Footer';
+import Footer from './components/Footer';
 
-// import Register from './components/Register';
+import Register from './components/Register';
 
 import './css/Style.css';
 
@@ -40,13 +40,14 @@ import Footer from './components/template/Footer';
 function App()
 {
   return (
-    <div>
+    <>
       <Preloader/>
       <OffCanvasMenu/>
       <Header/>
-      <Skeleton/>      
+      {/* <Skeleton/> */}
+      <Register/>
       <Footer/>
-    </div>
+    </>
   )
 }
 

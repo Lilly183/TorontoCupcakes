@@ -38,7 +38,7 @@ const Wishlist = () =>
                                         </td>
                                         <td className="cart__price">$ 15.00</td>
                                         <td className="cart__stock">In stock</td>
-                                        <td className="cart__btn"><a href="#" className="primary-btn">Add to cart</a></td>
+                                        <td className="cart__btn"><a href="/" className="primary-btn">Add to cart</a></td>
                                         <td className="cart__close"><span className="icon_close"></span></td>
                                     </tr>
                                     <tr>
@@ -52,7 +52,7 @@ const Wishlist = () =>
                                         </td>
                                         <td className="cart__price">$ 32.50</td>
                                         <td className="cart__stock">In stock</td>
-                                        <td className="cart__btn"><a href="#" className="primary-btn">Add to cart</a></td>
+                                        <td className="cart__btn"><a href="/" className="primary-btn">Add to cart</a></td>
                                         <td className="cart__close"><span className="icon_close"></span></td>
                                     </tr>
                                     <tr>
@@ -66,7 +66,7 @@ const Wishlist = () =>
                                         </td>
                                         <td className="cart__price">$ 23.50</td>
                                         <td className="cart__stock">In stock</td>
-                                        <td className="cart__btn"><a href="#" className="primary-btn">Add to cart</a></td>
+                                        <td className="cart__btn"><a href="/" className="primary-btn">Add to cart</a></td>
                                         <td className="cart__close"><span className="icon_close"></span></td>
                                     </tr>
                                     <tr>
@@ -80,7 +80,7 @@ const Wishlist = () =>
                                         </td>
                                         <td className="cart__price">$ 32.50</td>
                                         <td className="cart__stock">In stock</td>
-                                        <td className="cart__btn"><a href="#" className="primary-btn">Add to cart</a></td>
+                                        <td className="cart__btn"><a href="/" className="primary-btn">Add to cart</a></td>
                                         <td className="cart__close"><span className="icon_close"></span></td>
                                     </tr>
                                 </tbody>

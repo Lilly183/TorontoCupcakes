@@ -1,0 +1,26 @@
+/*--------------------- */
+/* Copyright            */
+/*----------------------*/
+
+:root
+{
+  --themeColor1: #E91E63;
+  --themeColor5: #888888;
+  --themeColor8: #000000;
+}
+
+.copyright
+{
+  background: var(--themeColor8);
+}
+
+.copyright__text
+{
+  color: var(--themeColor5);
+  font-size: 14px;
+}
+
+.copyright__text i, .copyright__text a
+{
+  color: var(--themeColor1);
+}
