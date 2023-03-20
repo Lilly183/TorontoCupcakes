@@ -1,16 +1,6 @@
-/*---------------------
-  Header
------------------------*/
-
-:root
-{
-  --themeColor1: #E91E63;     /* #f08632; */
-  --themeColor2: #ffffff;
-  --themeColor3: #bbbbbb;
-  --themeColor4: #bababa;
-  --themeColor5: #888888;
-  --themeColor6: #111111;
-}
+/*==================================================================*/
+/*                              Header                              */
+/*==================================================================*/
 
 .header 
 {
@@ -140,7 +130,7 @@
   display: inline-block;
   /* margin-left: 30px; */
   position: relative;
-  padding: 2px 0;
+  padding: 8px 0;
   cursor: pointer;
 }
 
@@ -156,11 +146,16 @@
   visibility: visible;
 }
 
+.header__top__right ul li ul li:hover
+{
+  background-color: var(--themeColor9);
+}
+
 .header__top__right ul li ul 
 {
   background: var(--themeColor6);
   display: inline-block;
-  padding: 8px 0;
+  margin: 8px 0;
   position: absolute;
   right: 0;
   top: 44px;
@@ -288,7 +283,36 @@
   display: none;
 }
 
-/* --------------------------------- Responsive Media Quaries ----------------------------- */
+/*================================== CART COUNT CSS =================================*/
+
+.header__top__right__cart:hover
+{
+  transform: scale(1.2);
+  transition: ease 0.2s;
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+}
+
+.cart__item__count
+{
+  position: absolute;
+  display: grid;
+  font-weight: bold;
+  background-color: var(--themeColor10);
+  z-index: 10;
+  border-radius: 50%;
+  font-size: 10px;
+  height: 15px;
+  width: 15px;
+  left: 70.5%;
+  bottom: 70.5%;
+}
+
+/*================================== CART COUNT CSS =================================*/
+
+/*==================================================================*/
+/*                     Responsive Media Queries                     */
+/*==================================================================*/
 
 /* Tablet Device = 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px) 
@@ -304,11 +328,6 @@
   }
 
   /*================================= Start of Added CSS =================================*/
-
-  /* .header__top__right ul li 
-  {
-    margin-left: 20px;
-  } */
 
   .header__top__right ul li:after 
   {

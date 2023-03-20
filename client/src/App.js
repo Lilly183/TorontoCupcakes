@@ -1,14 +1,19 @@
 import React from 'react';
+import './css/Global.css';
 
 import Preloader from './components/template/Preloader';
 import OffCanvasMenu from './components/OffCanvasMenu';
 import Header from './components/Header';
-import Skeleton from './components/Skeleton';
 import Footer from './components/Footer';
+import Demo from './demo/Demo';
 
-import Register from './components/Register';
+import Shop from './components/Shop';
 
-import './css/Style.css';
+// import Register from './components/Register';
+import ShoppingCart from './components/ShoppingCart';
+import Skeleton from './components/Skeleton';
+import Cart from './components/Cart';
+
 
 /*
 ——————————————————————————————————————————————————————————————————
@@ -43,9 +48,11 @@ function App()
     <>
       <Preloader/>
       <OffCanvasMenu/>
+      <ShoppingCart/>
       <Header/>
-      {/* <Skeleton/> */}
-      <Register/>
+      {/* <Cart/>
+      <Demo/> */}
+      <Demo/>
       <Footer/>
     </>
   )

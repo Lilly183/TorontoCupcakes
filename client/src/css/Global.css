@@ -1,0 +1,74 @@
+:root
+{
+    --headerHeight: 164px;
+    --footerHeight: 198px;
+    
+    --themeColor1: #E91E63;     /* #f08632; */
+    --themeColor2: #ffffff;
+    --themeColor3: #bbbbbb;
+    --themeColor4: #bababa;
+    --themeColor5: #888888;
+    --themeColor6: #111111;
+    --themeColor7: #a4a4a4;
+    --themeColor8: #000000;
+    --themeColor9: #5E5E5E;
+    --themeColor10: #F6A6C1;
+    --themeColor11: #D21B59;
+}
+
+* 
+{
+    margin: 0px;
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+/* header
+{
+    height: var(--headerHeight);
+}
+
+body
+{
+    min-height: 100vh;
+    padding-bottom: var(--footerHeight);
+    position: relative;
+}
+
+footer
+{
+    height: var(--footerHeight);
+    position: absolute;
+    bottom: 0;
+} */
+
+main
+{
+    min-height: calc(100vh - (var(--headerHeight)) - (var(--footerHeight)));
+}
+
+.spad
+{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/*==================================================================*/
+/*                     Responsive Media Queries                     */
+/*==================================================================*/
+
+@media only screen and (min-width: 1200px)
+{
+    .container
+    {
+        max-width: 1170px;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    :root
+    {
+        --headerHeight: 181px;
+    }
+}

@@ -5,7 +5,7 @@ const SocialMediaLink = (props) =>
 {
   return (
     <a href="/" className="social__media__link m-1 p-0 text-white" target="_blank">
-        <i className={props.iClassName}></i>
+        <i className={props.icon}></i>
     </a>
   )
 }

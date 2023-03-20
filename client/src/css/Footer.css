@@ -1,19 +1,18 @@
-/*--------------------- */
-/* Footer               */
-/* ---------------------*/
-
-:root
-{
-  --themeColor2: #ffffff;
-  --themeColor7: #a4a4a4;
-}
+/*==================================================================*/
+/*                              Footer                              */
+/*==================================================================*/
 
 .footer h6
 {
   color: var(--themeColor2);
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: 22px;
+  /* margin-bottom: 22px; */
+}
+
+.footer__container
+{
+  padding: 32px 12px 32px 12px; 
 }
 
 .footer__support ul li, .footer__legal ul li

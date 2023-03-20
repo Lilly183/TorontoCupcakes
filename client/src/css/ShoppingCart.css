@@ -1,0 +1,184 @@
+/*==================================================================*/
+/*                          Shopping Cart                           */
+/*==================================================================*/
+
+.shopping-cart-wrapper
+{
+  height: 0;
+}
+
+.shopping-cart-origin
+{
+  position: relative;
+  height: 0px;
+  width: 0px;
+}
+
+.shopping-cart
+{
+  border: 2px solid black;
+  border-radius: 2%;
+  position: absolute;
+  width: 350px;
+  top: 70px;
+  right: 0%;
+  background: var(--themeColor2);
+  z-index: 10;
+}
+
+.shopping__cart__empty__close:hover
+{
+  cursor: pointer;
+  transform: scale(1.4);
+  color: var(--themeColor1);
+}
+
+/* Adds a bottom border underneath the shopping cart's headings and one 
+additional border for every item that the shopping cart contains */
+
+.shopping__cart__table table thead, .shopping__cart__table table tbody tr
+{
+  border-bottom: 1px solid #f2f2f2;
+}
+
+/* Adjusts font properties for the shopping cart's table headings 
+("Product", "Quantity", etc.) */
+
+.shopping__cart__table table thead tr th
+{
+  color: var(--themeColor6);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Additional padding between each item comprising every row of the shopping cart */
+
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__pic
+{
+  -ms-flex: 0 0 90px;
+  flex: 0 0 90px;
+}
+
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text h6
+{
+  color: var(--themeColor6);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text span
+{
+  padding: 0;
+}
+
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text h5
+{
+  color: var(--themeColor6);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.shopping__cart__table table tbody tr td .product__cart__item__qty
+  {
+    width: 31.5px;
+  }
+
+.shopping__cart__table table tbody tr td.cart__price
+{
+  color: var(--themeColor6);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.shopping__cart__table table tbody tr .qty__control:hover
+{
+  /* transition: transform 0.2s linear;
+  transform: scale(1.1); */
+  background-color: var(--themeColor3);
+}
+
+.shopping__cart__table table tbody tr .fa-trash:hover
+{
+  cursor: pointer;
+  color: var(--themeColor1);
+  transform: scale(1.2);
+  transition: ease 0.2s;
+}
+
+.cart__total
+{
+  background: var(--themeColor10);
+}
+
+.cart__total h6
+{
+  color: var(--themeColor6);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.cart__total span
+{
+  font-weight: 600;
+  color: var(--themeColor8);
+  float: right;
+}
+
+.cart__total__checkout
+{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: var(--themeColor1);
+  color: var(--themeColor2);
+  text-decoration: none;
+}
+
+.cart__total__checkout:hover
+{
+  background: var(--themeColor11);
+}
+
+/*==================================================================*/
+/*                     Responsive Media Queries                     */
+/*==================================================================*/
+
+@media only screen and (min-width: 1600px) 
+{
+  .shopping-cart
+  {
+    width: 400px;
+    right: -175px;
+  }
+}
+
+@media only screen and (max-width: 767px) 
+{
+  .shopping-cart
+  {
+    display: none;
+  }
+}
+
+/* Wide Mobile = 480px */
+@media only screen and (max-width: 767px) 
+{
+  .shopping__cart__table
+  {
+    overflow-x: auto;
+  }
+}
+
+/* Small Device = 320px */
+@media only screen and (max-width: 479px) 
+{
+  .cart__total
+  {
+    padding: 30px 20px 30px;
+  }
+}

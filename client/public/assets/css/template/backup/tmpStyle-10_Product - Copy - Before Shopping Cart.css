@@ -2,12 +2,12 @@
   Product
 -----------------------*/
 
-/* .product
+.product
 {
   padding-top: 50px;
-} */
+}
 
-/* .product__item
+.product__item
 {
   margin-bottom: 40px;
 }
@@ -112,4 +112,4 @@
   display: inline-block;
   border-bottom: 2px solid #f08632;
   padding-bottom: 4px;
-} */
+}

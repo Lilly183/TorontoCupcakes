@@ -1,9 +1,21 @@
+/*==================================================================*/
+/*                          OffCanvasMenu                           */
+/*==================================================================*/
+
 .offcanvas-menu-wrapper
 {
   display: none;
 }
 
-/*--------------------------------- Responsive Media Quaries -----------------------------*/
+.cart__item__count.offcanvas__cart__item__count
+{
+  left: 52.75%;
+  bottom: 52.75%;
+}
+
+/*==================================================================*/
+/*                     Responsive Media Queries                     */
+/*==================================================================*/
 
 /* Wide Mobile = 480px */
 @media only screen and (max-width: 767px)
@@ -35,7 +47,7 @@
     right: -300px;
     width: 300px;
     height: 100%;
-    background: #ffffff;
+    background: var(--themeColor2);
     /* padding: 50px 20px 30px 30px; */
     display: block;
     z-index: 99;
@@ -78,27 +90,27 @@
   {
     padding: 7px 0;
     margin: 0;
-    color: #111111;
+    color: var(--themeColor6);
     font-weight: 600;
   }
 
   .slicknav_nav .slicknav_arrow
   {
-    color: #111111;
+    color: var(--themeColor6);
   }
 
   .slicknav_nav .slicknav_row:hover
   {
     border-radius: 0;
     background: transparent;
-    color: #111111;
+    color: var(--themeColor6);
   }
 
   .slicknav_nav a:hover
   {
     border-radius: 0;
     background: transparent;
-    color: #111111;
+    color: var(--themeColor6);
   }
 
   .slicknav_nav
@@ -109,7 +121,7 @@
   .offcanvas__option ul li
   {
     font-size: 14px;
-    color: #111111;
+    color: var(--themeColor6);
     list-style: none;
     display: inline-block;
     margin-right: 30px;
@@ -120,7 +132,7 @@
 
   .offcanvas__option ul li a
   {
-    color: #111111;
+    color: var(--themeColor6);
   }
 
   .offcanvas__option ul li:hover ul
@@ -132,7 +144,7 @@
 
   .offcanvas__option ul li ul
   {
-    background: #111111;
+    background: var(--themeColor6);
     display: inline-block;
     padding: 2px 0;
     position: absolute;
@@ -150,7 +162,7 @@
   {
     list-style: none;
     font-size: 13px;
-    color: #ffffff;
+    color: var(--themeColor2);
     padding: 2px 15px;
     cursor: pointer;
   }
@@ -166,7 +178,7 @@
     right: -19px;
     top: 1px;
     content: "|";
-    color: #bbbbbb;
+    color: var(--themeColor3);
   }
 
   .offcanvas__option ul li:last-child
@@ -181,7 +193,7 @@
 
   .offcanvas__option ul li span
   {
-    color: #888888;
+    color: var(--themeColor5);
   }
 
   .offcanvas__logo
@@ -219,7 +231,7 @@
     top: 0px;
     content: "|";
     font-size: 16px;
-    color: #bababa;
+    color: var(--themeColor4);
   }
 
   .offcanvas__cart__links a:last-child
@@ -247,7 +259,7 @@
   .offcanvas__cart__item a span
   {
     font-size: 15px;
-    color: #111111;
+    color: var(--themeColor6);
     font-weight: 600;
     position: absolute;
     left: 7px;
@@ -257,7 +269,7 @@
   .offcanvas__cart__item .cart__price
   {
     display: inline-block;
-    color: #888888;
+    color: var(--themeColor5);
     font-size: 15px;
     font-weight: 600;
     position: relative;
@@ -266,6 +278,6 @@
 
   .offcanvas__cart__item .cart__price span
   {
-    color: #111111;
+    color: var(--themeColor6);
   }
 }
