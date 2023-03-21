@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import '../demo/DemoCartItem.css';
-import CartContext from '../context/cart/CartContext';
+import CartContext from '../context/Context';
 import CurrencyFormat from 'react-currency-format';
 
 const CartItem = ({item}) => 

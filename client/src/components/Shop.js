@@ -24,9 +24,7 @@ const Shop = () =>
     const products = data.map((product) =>
         <Product
             key = {product.id}
-            imgSrc = {product.imgSrc}
-            name = {product.name}
-            price = {product.price}
+            prod = {product}
         />
     );
 

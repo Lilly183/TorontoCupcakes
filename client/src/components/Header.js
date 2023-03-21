@@ -1,13 +1,14 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import imgRelPath from './template/ImgRelPath';
 import Navbar from './Navbar';
 import '../css/Header.css'
 
-import CartContext from '../context/cart/CartContext';
+import { CartState } from '../context/Context';
+import ShoppingCart from './ShoppingCart';
 
 const Header = () => 
 {
-    const { cartItems, showHideCart } = useContext(CartContext);
+    const { state: { cart } } = CartState();
 
     return (
         <header className="header">
@@ -51,13 +52,14 @@ const Header = () =>
                                         <a href="/" className="search-switch"><img src={imgRelPath + "icon/search.png"} alt=""/></a>
                                         <a href="/"><img src={imgRelPath + "icon/heart.png"} alt=""/></a>
                                     </div> */}
-                                    <div className="header__top__right__cart position-relative">
-                                        {/* <a href="/"><img src={imgRelPath + "icon/cart.png"} alt=""/> <span>0</span></a> */}
-                                        <i className="fa fa-shopping-cart fa-2x" aria-hidden="true" onClick={showHideCart}/>
-                                        { cartItems.length > 0 && 
-                                            <span className="cart__item__count text-center">{cartItems.length}</span>
-                                        }
-                                        {/* <div className="cart__price">Cart: <span>$0.00</span></div> */}
+                                    <div className="dropdown" id="shoppingCartDropdown">
+                                        <div className="dropdown-toggle" type="button" id="shoppingCartDropdownToggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i className="fa fa-shopping-cart fa-2x" aria-hidden="true"/>
+                                            { cart.length > 0 && 
+                                            <span className="cart__item__count text-center">{cart.length}</span>
+                                            }
+                                        </div>
+                                        <ShoppingCart/> 
                                     </div>
                                 </div>
                             </div>

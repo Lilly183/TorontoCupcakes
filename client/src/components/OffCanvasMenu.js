@@ -1,13 +1,9 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import imgRelPath from './template/ImgRelPath';
 import '../css/OffCanvasMenu.css';
 
-import CartContext from '../context/cart/CartContext';
-
 const OffCanvasMenu = () => 
 {
-    const { cartItems } = useContext(CartContext);
-
     return (
         <div>
             <div className="offcanvas-menu-overlay"></div>
@@ -52,8 +48,8 @@ const OffCanvasMenu = () =>
                 </div>
                 <div className="pt-2 text-center position-relative">
                     <i className="fa fa-shopping-cart fa-2x" aria-hidden="true"/>
-                    { cartItems.length > 0 && 
-                        <span className="cart__item__count offcanvas__cart__item__count text-center">{cartItems.length}</span>
+                    { 999 > 0 && 
+                        <span className="cart__item__count offcanvas__cart__item__count text-center"></span>
                     }
                 </div>
             </div>

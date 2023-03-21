@@ -1,13 +1,5 @@
 import React from 'react';
 
-/* <section className="spad bg-secondary">
-    <div className="container bg-success">
-        <div className="row bg-danger">
-            <div className="col-lg-12 text-center">Testing!</div>
-        </div>
-    </div>
-</section> */
-
 const Skeleton = () => 
 {
   return (

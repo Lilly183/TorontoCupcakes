@@ -2,34 +2,33 @@
 /*                          Shopping Cart                           */
 /*==================================================================*/
 
-.shopping-cart-wrapper
-{
-  height: 0;
-}
-
-.shopping-cart-origin
-{
-  position: relative;
-  height: 0px;
-  width: 0px;
-}
-
 .shopping-cart
 {
   border: 2px solid black;
   border-radius: 2%;
-  position: absolute;
-  width: 350px;
-  top: 70px;
-  right: 0%;
+  min-width: 400px;
+  /* right: 0%; */
   background: var(--themeColor2);
-  z-index: 10;
+}
+
+.dropdown-menu-center
+{
+  right: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
+.shopping__cart__empty
+{
+  background-color: var(--themeColor10);
 }
 
 .shopping__cart__empty__close:hover
 {
   cursor: pointer;
-  transform: scale(1.4);
+  transform: scale(1.2);
   color: var(--themeColor1);
 }
 
@@ -38,7 +37,7 @@ additional border for every item that the shopping cart contains */
 
 .shopping__cart__table table thead, .shopping__cart__table table tbody tr
 {
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid var(--themeColor8);
 }
 
 /* Adjusts font properties for the shopping cart's table headings 
@@ -47,7 +46,7 @@ additional border for every item that the shopping cart contains */
 .shopping__cart__table table thead tr th
 {
   color: var(--themeColor6);
-  font-size: 14px;
+  font-size: 12.5px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -56,14 +55,14 @@ additional border for every item that the shopping cart contains */
 
 .shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__pic
 {
-  -ms-flex: 0 0 90px;
-  flex: 0 0 90px;
+  -ms-flex: 0 0 60px;
+  flex: 0 0 60px;
 }
 
 .shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text h6
 {
   color: var(--themeColor6);
-  font-size: 14px;
+  font-size: 12.5px;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -77,19 +76,19 @@ additional border for every item that the shopping cart contains */
 {
   color: var(--themeColor6);
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12.5px;
+}
+
+.shopping__cart__table table tbody tr .qty__control
+{
+  font-size: 10px;
 }
 
 .shopping__cart__table table tbody tr td .product__cart__item__qty
-  {
-    width: 31.5px;
-  }
-
-.shopping__cart__table table tbody tr td.cart__price
 {
-  color: var(--themeColor6);
-  font-size: 16px;
-  font-weight: 600;
+  height: 22px;
+  width: 22px;
+  font-size: 12.5px;
 }
 
 .shopping__cart__table table tbody tr .qty__control:hover
@@ -97,6 +96,13 @@ additional border for every item that the shopping cart contains */
   /* transition: transform 0.2s linear;
   transform: scale(1.1); */
   background-color: var(--themeColor3);
+}
+
+.shopping__cart__table table tbody tr td.cart__price
+{
+  color: var(--themeColor6);
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .shopping__cart__table table tbody tr .fa-trash:hover
@@ -116,7 +122,6 @@ additional border for every item that the shopping cart contains */
 {
   color: var(--themeColor6);
   text-transform: uppercase;
-  margin-bottom: 12px;
   font-weight: 600;
 }
 
@@ -130,7 +135,7 @@ additional border for every item that the shopping cart contains */
 .cart__total__checkout
 {
   display: inline-block;
-  font-size: 14px;
+  font-size: 12.5px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -152,14 +157,14 @@ additional border for every item that the shopping cart contains */
 {
   .shopping-cart
   {
-    width: 400px;
-    right: -175px;
+    width: 450px;
+    /* right: -175px; */
   }
 }
 
 @media only screen and (max-width: 767px) 
 {
-  .shopping-cart
+  #shoppingCartDropdown
   {
     display: none;
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter } from "react-router-dom"
 import './css/Global.css';
 
 import Preloader from './components/template/Preloader';
@@ -12,7 +13,6 @@ import Shop from './components/Shop';
 // import Register from './components/Register';
 import ShoppingCart from './components/ShoppingCart';
 import Skeleton from './components/Skeleton';
-import Cart from './components/Cart';
 
 
 /*
@@ -45,16 +45,13 @@ import Footer from './components/template/Footer';
 function App()
 {
   return (
-    <>
+    <BrowserRouter>
       <Preloader/>
       <OffCanvasMenu/>
-      <ShoppingCart/>
       <Header/>
-      {/* <Cart/>
-      <Demo/> */}
-      <Demo/>
+      <Shop/>
       <Footer/>
-    </>
+    </BrowserRouter>
   )
 }
 
