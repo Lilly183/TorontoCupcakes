@@ -1,5 +1,6 @@
 import React from 'react';
 import imgRelPath from './template/ImgRelPath';
+import '../css/Product.css';
 
 const Product = ({prod}) => {
   return (

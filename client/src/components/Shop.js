@@ -29,7 +29,7 @@ const Shop = () =>
     );
 
     return (
-        <div>
+        <main>
             <Breadcrumb 
                 text = "Shop" 
             />
@@ -68,6 +68,9 @@ const Shop = () =>
                         </div>
                     </div>
                     <div className="row">
+                        {/* {<Product
+                            prod = {{id: 1, imgSrc: "shop/product-1.jpg", name: "Dozen Cupcakes", price: 32.00}}
+                        />} */}
                         {products}
                     </div>
                     <div className="shop__last__option">
@@ -90,7 +93,7 @@ const Shop = () =>
                 </div>
             </section>
             {/* <!-- Shop Section End --> */}
-        </div>
+        </main>
     )
 }
 

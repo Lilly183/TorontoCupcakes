@@ -6,6 +6,9 @@ import Preloader from './components/template/Preloader';
 import OffCanvasMenu from './components/OffCanvasMenu';
 import Header from './components/Header';
 import Footer from './components/Footer';
+
+import TestCard_V2 from './components/TestCard_V2';
+import Product from './components/Product';
 import Demo from './demo/Demo';
 
 import Shop from './components/Shop';
@@ -49,7 +52,9 @@ function App()
       <Preloader/>
       <OffCanvasMenu/>
       <Header/>
-      <Shop/>
+      <TestCard_V2/>
+      {/* <Demo/> */}
+      {/* <Shop/> */}
       <Footer/>
     </BrowserRouter>
   )
