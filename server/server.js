@@ -47,6 +47,23 @@ app.post("/api/registerUser", async (req, res) =>
     });
 })
 
+app.get("/api/fetchProducts", async (req, res) =>
+{
+    const fetchProductsSQL = 
+    `SELECT 
+    *
+
+    FROM
+    PRODUCT
+
+    ORDER BY
+    CATEGORY_ID ASC`;
+    
+    db.query(fetchProductsSQL, (error, result) => {
+        res.send(result);
+    });
+})
+
 app.listen(5000, () =>
 {
     console.log("Server running on port 5000");

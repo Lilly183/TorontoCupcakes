@@ -11,7 +11,7 @@ const ShoppingCartItem = ({item}) => {
             <td className="product__cart__item container-fluid px-0" style={{"maxWidth" : "50%"}}>
                 <div className="row mx-0">                
                     <div className="product__cart__item__pic col my-auto me-2 px-0 py-1">
-                        <img src={item.imgSrc} alt=""/>
+                        <img src={process.env.PUBLIC_URL + item.imgSrc} alt=""/>
                     </div>
                     <div className="product__cart__item__text col my-auto px-0">
                         <h6 className="row mx-0">{item.name}</h6>

@@ -14,6 +14,8 @@
     --themeColor9: #5E5E5E;
     --themeColor10: #F6A6C1;
     --themeColor11: #D21B59;
+    --themeColor12: #EDEEEF;
+    --themeColor13: #E7E8E9;
 }
 
 * 
@@ -45,12 +47,17 @@ footer
 main
 {
     min-height: calc(100vh - (var(--headerHeight)) - (var(--footerHeight)));
+
+    background-image: radial-gradient(var(--themeColor12) 2px, transparent 2px), radial-gradient(var(--themeColor12) 2px, transparent 2px);
+    background-size: 8px 8px;
+    background-position: 0 0, 4px 4px;
+    background-color: var(--themeColor13);
 }
 
 .spad
 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /*==================================================================*/
