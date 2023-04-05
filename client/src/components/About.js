@@ -17,7 +17,9 @@ const About = () =>
                 <div className="row">
                     <div className="col-12">
                         <div className="backgroundPic m-auto">
-                            <div className="team__item d-flex set-bg img-fluid" data-setbg={imgRelPath + "team/michelle.jpg"}>
+                            <div className="team__item d-flex set-bg img-fluid">
+                            {/* data-setbg={imgRelPath + "team/michelle.jpg"} */}
+                                {/* <img src={imgRelPath + "team/michelle.jpg"} alt="Michelle"/> */}
                                 <div className="team__item__text">
                                     <h6>Michelle Harrison</h6>
                                     <span>Owner</span>
@@ -36,7 +38,7 @@ const About = () =>
                     <div className="col-lg-12 col-md-12">
                         <div className="about__text">
                             <div className="section-title">
-                                <span className="dark text-center">About Toronto Cupcake</span>
+                                <span className="text-black text-center">About Toronto Cupcake</span>
                                 <h2 className="dark text-center">Cakes and bakes from the house of Toronto!</h2>
                             </div>
                             <p className="text-center">We are driven by loving what we do and what we make everyday. We get to use the 

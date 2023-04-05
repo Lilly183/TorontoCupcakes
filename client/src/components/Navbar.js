@@ -1,5 +1,6 @@
 import React from 'react';
-import '../css/Navbar.css'
+import { NavLink } from 'react-router-dom';
+import '../css/Navbar.css';
 
 const Navbar = () => 
 {
@@ -9,17 +10,17 @@ const Navbar = () =>
             <div className="col-lg-12">
                 <nav className="header__menu mobile-menu">
                     <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li className="active"><a href="./products.html">Products</a>
-                            {/* <ul className="dropdown">
-                                <li><a href="/">Always Available</a></li>
-                                <li><a href="/">Holidays</a></li>
-                                <li><a href="/">Special Events</a></li>
-                                <li><a href="/">Custom</a></li>
-                            </ul> */}
+                        <li className="active"><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink to="/shop">Shop</NavLink>
+                        {/* <ul className="dropdown">
+                            <li><NavLink to="/">Always Available</NavLink></li>
+                            <li><NavLink to="/">Holidays</NavLink></li>
+                            <li><NavLink to="/">Special Events</NavLink></li>
+                            <li><NavLink to="/">Custom</NavLink></li>
+                        </ul> */}
                         </li>
-                        <li><a href="./contact.html">Contact</a></li>
-                        <li><a href="./about.html">About</a></li>
+                        <li><NavLink to="/contact">Contact</NavLink></li>
+                        <li><NavLink to="/about">About</NavLink></li>
                     </ul>
                 </nav>
             </div>

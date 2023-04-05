@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import './css/Global.css';
 
 import Preloader from './components/template/Preloader';
@@ -16,6 +16,7 @@ import Skeleton from './components/Skeleton';
 
 import Home from './components/Home';
 import About from './components/About';
+import Register from './components/Register';
 
 /*
 ——————————————————————————————————————————————————————————————————
@@ -51,10 +52,13 @@ function App()
       <Preloader/>
       <OffCanvasMenu/>
       <Header/>
-      <Demo/>
-      {/* <Home/> */}
-      {/* <Shop/> */}
-      {/* <About/> */}
+      <Routes>
+        <Route path='/' index element={<Home />} />
+        <Route path='/About' element={<About />} />
+        <Route path='/Shop' element={<Demo />} />
+        <Route path='/Register' element={<Register/>} />
+        {/* <Route path='/Login' element={<Login/>} /> */}
+      </Routes>
       <Footer/>
     </BrowserRouter>
   )

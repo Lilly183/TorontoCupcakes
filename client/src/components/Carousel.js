@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Carousel() {
   return (
     <div>
-    <section className="hero">
+        <section className="hero">
             <div className="hero__slider owl-carousel">
                 <div className="hero__item set-bg" data-setbg={imgRelPath + "hero/hero-2.jpg"}>
                     <div className="container">
@@ -14,7 +14,7 @@ function Carousel() {
                             <div className="col-lg-8 bg-white p-0">
                                 <div className="hero__text m-3">
                                     <h2>Making your life sweeter one bite at a time!</h2>
-                                    <Link to="/product" className="primary-btn our__cakes">Our cakes</Link>
+                                    <Link to="/shop" className="primary-btn our__cakes">Our cakes</Link>
                                 </div>
                             </div>
                         </div>

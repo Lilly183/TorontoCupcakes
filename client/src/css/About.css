@@ -2,6 +2,8 @@
 .about__text p
 {
   margin-bottom: 0;
+  width: 64%;
+  margin: auto;
 }
 
 .backgroundPic
@@ -16,6 +18,7 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
+  background-size: contain;
 }
 
 .team__item:hover .team__item__text

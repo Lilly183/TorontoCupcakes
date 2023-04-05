@@ -2,6 +2,7 @@ import React from 'react';
 import imgRelPath from './template/ImgRelPath';
 import Navbar from './Navbar';
 import '../css/Header.css'
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 
 import { CartState } from '../context/Context';
 import ShoppingCart from './ShoppingCart';
@@ -35,15 +36,18 @@ const Header = () =>
                                     </ul>
                                 </div> */}
                                 <div className="header__logo">
-                                    <a href="./index.html"><img src={imgRelPath + "logo.png"} alt=""/></a>
+                                    {/* <a href="./index.html"><img src={imgRelPath + "logo.png"} alt=""/></a> */}
+                                    <Link to="/"><img src={imgRelPath + "logo.png"} alt=""/></Link>
                                 </div>
                                 <div className="ms-auto d-flex align-items-center">
                                     <div className="header__top__right me-4">
                                         <ul>
                                             <li><a href="/">Account</a>&nbsp;<span className="arrow_carrot-down"></span>&nbsp;&emsp;
                                                 <ul>
-                                                    <li>Login</li>
-                                                    <li>Register</li>
+                                                    {/* <li>Login</li>
+                                                    <li>Register</li> */}
+                                                    <Link to="Login"><li>Login</li></Link>
+                                                    <Link to="Register"><li>Register</li></Link>
                                                 </ul>
                                             </li>
                                         </ul>
