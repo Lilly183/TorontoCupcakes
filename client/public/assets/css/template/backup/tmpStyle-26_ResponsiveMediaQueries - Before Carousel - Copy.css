@@ -37,6 +37,11 @@
     right: -15px;
   }
 
+  /* .shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text */
+  /* { */
+    /* padding-top: 10px; */
+  /* } */
+
   .wishlist__cart__table table tbody tr td.cart__btn .primary-btn
   {
     padding: 14px 20px;
@@ -51,6 +56,16 @@
 /* Tablet Device = 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px) 
 {
+  .hero__slider.owl-carousel .owl-nav button
+  {
+    left: 0;
+  }
+
+  .hero__slider.owl-carousel .owl-nav button.owl-next
+  {
+    right: 0;
+  }
+
   .categories__slider.owl-carousel .owl-nav button
   {
     left: -20px;
@@ -229,10 +244,36 @@
     bottom: 0;
   }
 
+  /* .shopping__cart__table */
+  /* { */
+    /* overflow-x: auto; */
+  /* } */
+
   .related__products__slider.owl-carousel .owl-nav button.owl-next
   {
     left: 5px;
   }
+
+  /* .shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__pic */
+  /* { */
+    /* float: none; */
+    /* margin-right: 0; */
+  /* } */
+
+  /* .shopping__cart__table table tbody tr td.product__cart__item */
+  /* { */
+    /* width: auto; */
+  /* } */
+
+  /* .shopping__cart__table table tbody tr td.quantity__item */
+  /* { */
+    /* width: auto; */
+  /* } */
+
+  /* .shopping__cart__table table tbody tr td.cart__price */
+  /* { */
+    /* width: auto; */
+  /* } */
 
   .wishlist__cart__table
   {
@@ -259,6 +300,16 @@
   {
     width: auto;
   }
+
+  /* .cart__discount */
+  /* { */
+    /* padding-top: 40px; */
+  /* } */
+
+  /* .continue__btn a */
+  /* { */
+    /* padding: 14px 20px; */
+  /* } */
 
   .checkout__order
   {
@@ -311,6 +362,21 @@
   .contact__text
   {
     margin-bottom: 40px;
+  }
+
+  .about__text
+  {
+    margin-bottom: 40px;
+  }
+
+  .hero__slider.owl-carousel .owl-nav button
+  {
+    left: 0;
+  }
+
+  .hero__slider.owl-carousel .owl-nav button.owl-next
+  {
+    right: 0;
   }
 
   .product__details__tab .nav-tabs .nav-item
@@ -404,6 +470,17 @@
     margin-bottom: 40px;
   }
 
+  /* .continue__btn */
+  /* { */
+    /* text-align: center; */
+  /* } */
+
+  /* .continue__btn.update__btn */
+  /* { */
+    /* text-align: center; */
+    /* margin-top: 20px; */
+  /* } */
+
   .breadcrumb__links
   {
     text-align: left;
@@ -414,6 +491,23 @@
 /* Small Device = 320px */
 @media only screen and (max-width: 479px) 
 {
+  .section-title h2, .blog__hero__text h2, .blog__item__text h2
+  {
+    font-size: 28px;
+    line-height: normal;
+  }
+
+  .hero__text
+  {
+    padding: 40px 25px 50px;
+  }
+
+  .hero__text h2
+  {
+    font-size: 34px;
+    line-height: 45px;
+  }
+
   .categories__item
   {
     margin: 0 auto;
@@ -436,6 +530,11 @@
   {
     margin-bottom: 20px;
   }
+
+  /* .cart__total */
+  /* { */
+    /* padding: 30px 20px 30px; */
+  /* } */
 
   .blog__item__pic .blog__pic__inner ul
   {

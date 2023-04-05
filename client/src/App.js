@@ -7,15 +7,15 @@ import OffCanvasMenu from './components/OffCanvasMenu';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-import Product from './components/Product';
 import Demo from './demo/Demo';
-
+import Product from './components/Product';
 import Shop from './components/Shop';
-
 // import Register from './components/Register';
-import ShoppingCart from './components/ShoppingCart';
+
 import Skeleton from './components/Skeleton';
 
+import Home from './components/Home';
+import About from './components/About';
 
 /*
 ——————————————————————————————————————————————————————————————————
@@ -52,7 +52,9 @@ function App()
       <OffCanvasMenu/>
       <Header/>
       <Demo/>
+      {/* <Home/> */}
       {/* <Shop/> */}
+      {/* <About/> */}
       <Footer/>
     </BrowserRouter>
   )

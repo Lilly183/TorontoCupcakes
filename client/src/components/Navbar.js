@@ -9,8 +9,8 @@ const Navbar = () =>
             <div className="col-lg-12">
                 <nav className="header__menu mobile-menu">
                     <ul>
-                        <li className="active"><a href="./index.html">Home</a></li>
-                        <li><a href="./products.html">Products</a>
+                        <li><a href="./index.html">Home</a></li>
+                        <li className="active"><a href="./products.html">Products</a>
                             {/* <ul className="dropdown">
                                 <li><a href="/">Always Available</a></li>
                                 <li><a href="/">Holidays</a></li>

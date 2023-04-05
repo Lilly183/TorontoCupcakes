@@ -1,0 +1,9 @@
+.welcome
+{
+  color:var(--themeColor2); 
+}
+
+.welcome-banner-container
+{
+  background: var(--themeColor1);
+}

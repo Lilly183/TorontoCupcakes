@@ -10,13 +10,13 @@ const Context = ({children}) =>
 {
     /*============================REVISIT THIS!============================*/
     
-    useEffect(() => 
-    {
-        Axios.get("/api/fetchProducts").then((response) =>
-        {
-            console.log(response.data);
-        })
-    }, [])
+    // useEffect(() => 
+    // {
+    //     Axios.get("/api/fetchProducts").then((response) =>
+    //     {
+    //         console.log(response.data);
+    //     })
+    // }, [])
     
     /*============================REVISIT THIS!============================*/
     
