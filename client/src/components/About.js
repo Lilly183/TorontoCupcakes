@@ -1,5 +1,4 @@
 import React from 'react';
-import imgRelPath from './template/ImgRelPath';
 import Breadcrumb from './template/Breadcrumb';
 import '../css/About.css'; 
 
