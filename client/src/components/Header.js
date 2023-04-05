@@ -2,7 +2,7 @@ import React from 'react';
 import imgRelPath from './template/ImgRelPath';
 import Navbar from './Navbar';
 import '../css/Header.css'
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Link } from 'react-router-dom';
 
 import { CartState } from '../context/Context';
 import ShoppingCart from './ShoppingCart';
