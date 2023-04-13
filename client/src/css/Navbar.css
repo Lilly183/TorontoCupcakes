@@ -15,7 +15,7 @@
   margin-right: -5px;
 }
 
-.header__menu ul li.active a, .header__menu ul li:hover a
+.header__menu ul li a.active, .header__menu ul li a:hover
 {
   background: var(--themeColor6);
 }

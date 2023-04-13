@@ -1,0 +1,89 @@
+/*==================================================================*/
+/*                               Form                               */
+/*==================================================================*/
+
+.customForm
+{
+    background-color: #FCE0EA;
+    background-clip: border-box;
+    border: 1px solid var(--themeColor1);
+    border-radius: 0.375rem;
+}
+
+.customForm .customFormIcon
+{
+    width: 50px;
+    background-color: var(--themeColor1);
+}
+
+.customForm input
+{
+    color: var(--themeColor6);
+    /* background: #FFF6FB; */
+    /* background: #FFF9FC; */
+    background: #FFF4FA;
+    border: 1px solid var(--themeColor10);
+    height: 50px;
+}
+
+.customForm .form-control:focus
+{
+    background-color: var(--themeColor2);
+    border-color: var(--themeColor1);
+    box-shadow: 0 0 0 .25rem var(--themeColor10);
+}
+
+.btn-submit
+{
+    --bs-btn-hover-color: var(--themeColor2);
+    --bs-btn-hover-bg: var(--themeColor11);
+    --bs-btn-hover-border-color: var(--themeColor14);
+	--bs-btn-color: var(--themeColor2);
+    --bs-btn-bg: var(--themeColor1);
+    --bs-btn-border-color: var(--themeColor1);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: var(--themeColor2);
+    --bs-btn-active-bg: var(--themeColor14);
+    --bs-btn-active-border-color: var(--themeColor15);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--themeColor2);
+    --bs-btn-disabled-bg: var(--themeColor1);
+    --bs-btn-disabled-border-color: var(--themeColor1);
+    
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+}
+
+.btn-submit:hover
+{
+    transform: scale(1.0125);
+}
+
+.errorMessage, .successMessage
+{
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.errorMessage
+{
+    color: #D8000C;
+    background-color: #FFB3B3;
+    /* background-color: #FFBABA; */
+}
+
+.successMessage
+{    
+    color: #3B7448;
+    background-color: #CFE0BE;
+}
+
+.customFormLink, .customFormLink:hover, .customFormLink:focus 
+{
+    color: var(--themeColor1);
+}

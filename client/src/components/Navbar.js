@@ -2,31 +2,33 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../css/Navbar.css';
 
-const Navbar = () => 
+const Navbar = () =>
 {
-  return (
-    <div className="container">
-        <div className="row">
-            <div className="col-lg-12">
-                <nav className="header__menu mobile-menu">
-                    <ul>
-                        <li className="active"><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/shop">Shop</NavLink>
-                        {/* <ul className="dropdown">
-                            <li><NavLink to="/">Always Available</NavLink></li>
-                            <li><NavLink to="/">Holidays</NavLink></li>
-                            <li><NavLink to="/">Special Events</NavLink></li>
-                            <li><NavLink to="/">Custom</NavLink></li>
-                        </ul> */}
-                        </li>
-                        <li><NavLink to="/contact">Contact</NavLink></li>
-                        <li><NavLink to="/about">About</NavLink></li>
-                    </ul>
-                </nav>
+    const links =
+    [
+        {id: 1, route: "/", label: "Home"},
+        {id: 2, route: "/Shop", label: "Shop"},
+        {id: 3, route: "/Contact", label: "Contact"},
+        {id: 4, route: "/About", label: "About"},
+    ];
+
+    return (
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-12">
+                    <nav className="header__menu mobile-menu">
+                        <ul>
+                            {links.map((linkItem) =>
+                                <li key={linkItem.id}>
+                                    <NavLink className={({ isActive }) => isActive ? "active" : null} to={linkItem.route}>{linkItem.label}</NavLink>
+                                </li>
+                            )}
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Navbar;

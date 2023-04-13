@@ -114,6 +114,11 @@
     padding-top: 40px;
   }
 
+  /* .cart__discount */
+  /* { */
+    /* padding-top: 40px; */
+  /* } */
+
   .class__sidebar
   {
     margin-top: 40px;
@@ -148,6 +153,11 @@
   .blog__details__ingredients
   {
     margin-bottom: 25px;
+  }
+
+  .contact__text
+  {
+    margin-bottom: 40px;
   }
 
   .blog__details__ingredients__pic img
@@ -296,6 +306,11 @@
   .blog__details__comment__item--reply
   {
     padding-left: 0;
+  }
+
+  .contact__text
+  {
+    margin-bottom: 40px;
   }
 
   .product__details__tab .nav-tabs .nav-item

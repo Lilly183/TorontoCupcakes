@@ -1,6 +1,6 @@
-/*---------------------
-  Hero
------------------------*/
+/*==================================================================*/
+/*                               Hero                               */
+/*==================================================================*/
 
 .hero__item
 {
@@ -22,18 +22,6 @@
   padding: 65px 70px 70px;
   position: relative;
   border: 1px dashed var(--themeColor10);
-}
-
-.hero__text:after
-{
-  position: absolute;
-  left: 15px;
-  top: 15px;
-  height: calc(100% - 30px);
-  width: calc(100% - 30px);
-  border: 1px dashed #f08632;
-  content: "";
-  opacity: 0.3;
 }
 
 .hero__text h2
@@ -96,6 +84,10 @@
   left: auto;
   right: 30px;
 }
+
+/*==================================================================*/
+/*                     Responsive Media Queries                     */
+/*==================================================================*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) 
 {

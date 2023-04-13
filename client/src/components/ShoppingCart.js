@@ -6,27 +6,6 @@ import ShoppingCartItem from './ShoppingCartItem';
 
 import { CartState } from '../context/Context';
 
-{/* <ShoppingCartItem 
-imgSrc = "shop/cart/cart-1.jpg"
-name = "T-shirt Contrast Pocket"
-price = {30.00}
-/>
-<ShoppingCartItem
-imgSrc = "shop/cart/cart-2.jpg"
-name = "Diagonal Textured Cap"
-price = {32.50}
-/>
-<ShoppingCartItem
-imgSrc = "shop/cart/cart-3.jpg"
-name = "Basic Flowing Scarf"
-price = {47.00}
-/>
-<ShoppingCartItem
-imgSrc = "shop/cart/cart-4.jpg"
-name = "Basic Flowing Scarf"
-price = {30.00}
-/> */}
-
 const ShoppingCart = () => 
 {
     const { state: { cart } } = CartState();
@@ -78,10 +57,7 @@ const ShoppingCart = () =>
                                     </thead>
                                     <tbody> 
                                         {cart.map((item) => 
-                                            <ShoppingCartItem
-                                            key = {item.id}
-                                            item = {item}
-                                            />
+                                            <ShoppingCartItem key = {item.id} item = {item}/>
                                         )}
                                     </tbody>
                                 </table>
@@ -92,9 +68,7 @@ const ShoppingCart = () =>
                                         <h6 className="m-0">Cart Total:</h6>
                                     </div>
                                     <div className="col text-end">
-                                        <h5>
-                                            <CurrencyFormat value={total} displayType={'text'} thousandSeparator={true} prefix={'$'} decimalScale={2} fixedDecimalScale={true}/>
-                                        </h5>
+                                        <h5><CurrencyFormat value={total} displayType={'text'} thousandSeparator={true} prefix={'$'} decimalScale={2} fixedDecimalScale={true}/></h5>
                                     </div>
                                 </div>
                                 <div className="row text-center">

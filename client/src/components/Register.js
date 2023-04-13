@@ -1,6 +1,8 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
+import '../css/Form.css';
+import RegisterInputRow from './RegisterInputRow';
+import { Link } from 'react-router-dom';
 import Axios from "axios";
-import InputGroup from './InputGroup';
 
 const Register = () => 
 {
@@ -23,16 +25,15 @@ const Register = () =>
         the contents of the <input> tag? 
         */
 
-        setRegisterData({ ...registerData, [e.target.name]: e.target.value});
+        setRegisterData({ ...registerData, [e.target.name]: e.target.value });
     };
 
     const handleSubmit = (e) =>
     {
         e.preventDefault();
 
-        Axios.post("/api/registerUser", 
-            registerData
-        ).then(() =>
+        Axios.post("/api/registerUser", registerData)
+        .then(() =>
         {
             alert("Success!");
         })
@@ -40,67 +41,63 @@ const Register = () =>
 
     const inputsArr = 
     [
-        {id: 1, name: "username", heading: "Username", type: "text", required: true, placeholder: "Username", value: registerData.username, onChangeHandler: handleChange},
-        {id: 2, name: "password", heading: "Password", type: "password", required: true, placeholder: "abc123", value: registerData.password, onChangeHandler: handleChange},
-        {id: 3, name: "email", heading: "Email", type: "email", required: true, placeholder: "Example@email.com", value: registerData.email, onChangeHandler: handleChange},
-        {id: 4, name: "firstName", heading: "First Name", type: "text", required: false, placeholder: "John", value: registerData.firstName, onChangeHandler: handleChange},
-        {id: 5, name: "lastName", heading: "Last Name", type: "text", required: false, placeholder: "Example@email.com", value: registerData.lastName, onChangeHandler: handleChange}
+        {id: 1, name: "username", heading: "Username", type: "text", placeholder: "Username", required: true, maxLength: 64, value: registerData.username, onChangeHandler: handleChange},
+        {id: 2, name: "password", heading: "Password", type: "password", placeholder: "abc123", required: true, maxLength: null, value: registerData.password, onChangeHandler: handleChange},
+        {id: 3, name: "email", heading: "Email", type: "email", placeholder: "Example@email.com", required: true, maxLength: 256, value: registerData.email, onChangeHandler: handleChange},
+        {id: 4, name: "firstName", heading: "First Name", type: "text", placeholder: "John", required: false, maxLength: 64, value: registerData.firstName, onChangeHandler: handleChange},
+        {id: 5, name: "lastName", heading: "Last Name", type: "text", placeholder: "Doe", required: false, maxLength: 64, value: registerData.lastName, onChangeHandler: handleChange}
     ];
 
     const registerFormInputs = inputsArr.map((input) =>
-        <InputGroup
+        <RegisterInputRow
             key = {input.id}
             name = {input.name}
             heading = {input.heading}
             type = {input.type}
-            required = {input.required}
             placeholder = {input.placeholder}
+            required = {input.required}
+            maxLength = {input.maxLength}
             value = {input.value}
             onChangeHandler = {input.onChangeHandler}
         />
     );
 
     return (
-
-        <main className="bg-dark">
-            <section className="spad bg-secondary">
-                <div className="container bg-success">
-                    <div className="row bg-danger">
-                        <div className="col-lg-12">
-
-                            <div className="row mb-5">
-                                <div className="col-12">
-                                    <h2 className="site-section-heading text-center pt-5">Register</h2>
-                                </div>
+        <main>
+            <section className="spad">
+                <div className="pageContainer container pb-4">
+                    {/* <div className="row">
+                        <div className="col-12"> */}
+                            
+                            <div className="container pt-2 pb-4">
+                                {/* <div className="row">
+                                    <div className="col-12"> */}
+                                        <h2 className="pageHeading text-start text-black">Register</h2>
+                                    {/* </div>
+                                </div> */}
                             </div>
 
-
-                            <div className="container-fluid">
-                                <div className="row justify-content-center">
-                                    <div className="col-md-7">
-                                        
-                                        <form id="registerForm" className="register-form p-4 bg-dark border border-dark" onSubmit={handleSubmit}>
-                                            {/* <!-- Register Form Inputs --> */}
+                            <div className="container">
+                                {/* <div className="row justify-content-center">
+                                    <div className="col-12"> */}
+                                        <form className="customForm pt-0 px-4 pb-4" onSubmit={handleSubmit}>
                                             {registerFormInputs}
-                                            {/* <!-- Register Form Submit Button --> */}
-                                            <div className="row form-group text-center">
-                                                <div className="col-md-12">
-                                                    <button type="submit" className="btn btn-primary btn-lg btn-block mt-3 w-50">Register Now</button>
+                                            <div className="row text-center pt-2">
+                                                <div className="col-12 py-1">
+                                                    <button type="submit" className="btn btn-submit w-100">Submit</button>
                                                 </div>
                                             </div>
                                         </form>
-                                    </div>
-                                </div>
+                                    {/* </div>
+                                </div> */}
                             </div>
-
-
-                        </div>
-                    </div>
+                        {/* </div>
+                    </div> */}
                 </div>
+                <h6 className="text-center text-black mt-2 py-1">Already have an account with us? <Link to="/Login" className="customFormLink fw-semibold">Sign-in here!</Link></h6>
             </section>
         </main>
-
     )
 }
 
-export default Register
+export default Register;

@@ -2,7 +2,7 @@
   Contact
 -----------------------*/
 
-/* .contact .map
+.contact .map
 {
   height: 400px;
   margin-bottom: 70px;
@@ -113,4 +113,4 @@
 .contact__form form textarea:last-child
 {
   color: #111111;
-} */
+}

@@ -5,18 +5,15 @@ import './css/Global.css';
 import Preloader from './components/template/Preloader';
 import OffCanvasMenu from './components/OffCanvasMenu';
 import Header from './components/Header';
+import Home from './components/Home';
+import Shop from './components/Shop';
+import Contact from './components/Contact';
+import About from './components/About';
+import Login from './components/Login';
+import Register from './components/Register';
 import Footer from './components/Footer';
 
-import Demo from './demo/Demo';
-import Product from './components/Product';
-import Shop from './components/Shop';
-// import Register from './components/Register';
-
 import Skeleton from './components/Skeleton';
-
-import Home from './components/Home';
-import About from './components/About';
-import Register from './components/Register';
 
 /*
 ——————————————————————————————————————————————————————————————————
@@ -53,11 +50,12 @@ function App()
       <OffCanvasMenu/>
       <Header/>
       <Routes>
-        <Route path='/' index element={<Home />} />
-        <Route path='/About' element={<About />} />
-        <Route path='/Shop' element={<Demo />} />
-        <Route path='/Register' element={<Register/>} />
-        {/* <Route path='/Login' element={<Login/>} /> */}
+        <Route path="/" index element={<Home/>}/>
+        <Route path="/Shop" element={<Shop/>}/>
+        <Route path="/Contact" element={<Contact/>}/>
+        <Route path="/About" element={<About/>}/>
+        <Route path="/Login" element={<Login/>}/>
+        <Route path="/Register" element={<Register/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
