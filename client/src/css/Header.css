@@ -399,3 +399,11 @@
     display: none;
   }
 }
+
+@media (min-width: 576px)
+{
+  .header .container 
+  {
+    max-width: 720px;
+  }
+}

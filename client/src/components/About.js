@@ -14,7 +14,7 @@ const About = () =>
                         <div className="col-12">
                             <div className="backgroundPic m-auto">
                                 <div className="team__item d-flex set-bg img-fluid">														 
-                                    <img className='m-auto' src={process.env.PUBLIC_URL + "/assets/img/team/michelle.jpg"} alt="Michelle"/>
+                                    <img className="m-auto" src={process.env.PUBLIC_URL + "/assets/img/team/michelle.jpg"} alt="Michelle"/>
                                     <div className="team__item__text">
                                         <h6>Michelle Harrison</h6>
                                         <span>Owner</span>
