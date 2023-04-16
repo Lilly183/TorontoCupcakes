@@ -31,7 +31,7 @@ const Login = () =>
                 <h6 className="successMessage container text-center mt-3 py-1"><strong><i className="fa fa-check-circle pe-1"></i>Login successful!</strong></h6>
                 : 
                 // Login attempt returns FALSE (Invalid credentials):
-                <h6 className="errorMessage container text-center mt-3 py-1"><strong><i className="fa fa-exclamation-triangle pe-1"></i>Invalid username or password. Please try again.</strong></h6>;
+                <h6 className="errorMessage container text-center mt-3 py-1"><strong><i className="fa fa-exclamation-triangle pe-1"></i>Invalid username or password! Please try again.</strong></h6>
 
             // Set loginStatus to the value of feedbackMessage:  
             setLoginStatus(feedbackMessage);
@@ -91,7 +91,7 @@ const Login = () =>
                     </div> */}
                 </div>
                 {loginStatus}
-                <h6 className="text-center text-black mt-2 py-1">Don't have an account? <Link to="/Register" className="customFormLink fw-semibold">Register here!</Link></h6>
+                <h6 className="text-center text-black mt-2 py-1">Don't have an account? <Link to="/Register" className="themeLink fw-semibold">Register here!</Link></h6>
             </section>
         </main>
     )

@@ -94,7 +94,7 @@ const Register = () =>
                         {/* </div>
                     </div> */}
                 </div>
-                <h6 className="text-center text-black mt-2 py-1">Already have an account with us? <Link to="/Login" className="customFormLink fw-semibold">Sign-in here!</Link></h6>
+                <h6 className="text-center text-black mt-2 py-1">Already have an account with us? <Link to="/Login" className="themeLink fw-semibold">Sign-in here!</Link></h6>
             </section>
         </main>
     )

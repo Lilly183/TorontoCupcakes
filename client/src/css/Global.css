@@ -1,7 +1,7 @@
 :root
 {
     --headerHeight: 164px;
-    --footerHeight: 198px;
+    --footerHeight: 196px;
     
     --themeColor1: #E91E63;     /* #f08632; */
     --themeColor2: #ffffff;
@@ -80,6 +80,11 @@ main
     background-clip: border-box;
     border: solid 2px var(--themeColor8);
     border-radius: 0.375rem;
+}
+
+.themeLink, .themeLink:hover, .themeLink:focus 
+{
+    color: var(--themeColor1);
 }
 
 /*==================================================================*/

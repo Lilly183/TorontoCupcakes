@@ -6,7 +6,7 @@
 {
     background-color: #FCE0EA;
     background-clip: border-box;
-    border: 1px solid var(--themeColor1);
+    border: 1px solid var(--themeColor10);
     border-radius: 0.375rem;
 }
 
@@ -81,9 +81,4 @@
 {    
     color: #3B7448;
     background-color: #CFE0BE;
-}
-
-.customFormLink, .customFormLink:hover, .customFormLink:focus 
-{
-    color: var(--themeColor1);
 }

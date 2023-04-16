@@ -9,8 +9,8 @@ const Footer = () =>
     const supportLinks = 
     [
         {id: 1, route: "/Contact", label: "Contact Us"},
-        {id: 2, route: "/About", label: "About"},
-        {id: 3, route: "/FAQ", label: "FAQ"}
+        {id: 2, route: "/About", label: "About"}
+        // {id: 3, route: "/FAQ", label: "FAQ"}
     ];
 
     const socialMediaLinks = 

@@ -4,23 +4,9 @@ import '../css/Map.css';
 const Map = () => 
 {
     return (
-        <div className="map">
-            <div className="container">
-                <div className="row d-flex justify-content-center">
-                    <div className="col-lg-4 col-md-7">
-                        <div className="map__inner">
-                            <h6>Colorado</h6>
-                            <ul>
-                                <li>1000 Lakepoint Dr, Frisco, CO 80443, USA</li>
-                                <li>Sweetcake@support.com</li>
-                                <li>+1 800-786-1000</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div className="map border border-dark">
             <div className="map__iframe">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10784.188505644011!2d19.053119335158936!3d47.48899529453826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1543907528304" height="300" style={{border: "0"}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.930769060989!2d-79.3002175645548!3d43.67040963525142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cc0771d13aab%3A0xd465ec3f72760975!2sQueen%20St%20E%20%26%20Lee%20Ave%2C%20Toronto%2C%20ON%20M4E%201E5!5e0!3m2!1sen!2sca!4v1594914856725!5m2!1sen!2sca" title="TorontoCupcakesLocation" className="w-100 h-100" style={{border: "0"}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
             </div>
         </div>
     )
