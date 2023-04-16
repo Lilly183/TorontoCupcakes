@@ -128,18 +128,10 @@
 
 .card .wrapper .prodInfo summary
 {
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap; */
-  /* min-height: 100px; */
   font-size: 0.9rem;
   text-overflow: ellipsis;
   overflow: hidden;
   box-sizing: border-box;
-  
-  /* align-items: center;
-  justify-content: center;
-  align-content: center; */
 }
 
 .card .wrapper .prodInfo summary:hover

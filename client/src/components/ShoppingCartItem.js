@@ -1,9 +1,9 @@
 import React from 'react';
-import CurrencyFormat from 'react-currency-format';
 import { CartState } from '../context/Context';
+import CurrencyFormat from 'react-currency-format';
 
-const ShoppingCartItem = ({item}) => {
-
+const ShoppingCartItem = ({item}) => 
+{
     const {state: { cart }, dispatch, } = CartState();
 
     return (
@@ -23,7 +23,6 @@ const ShoppingCartItem = ({item}) => {
                 <button type="button" className="fa fa-solid fa-minus p-1 qty__control" onClick={(e) => dispatch({type: "CHANGE_CART_QTY", payload: { id: item.id, qty: (item.qty > 1) ? (--item.qty) : item.qty}, })}></button>
             </td>
             <td className="text-center" style={{"width" : "1%"}}>
-                {/* <input className="text-center" type="number" step="1" min="1" max="99" name="quantity" defaultValue={"1"} pattern="[0-9]*" inputMode="numeric"/> */}
                 <button type="button" className="product__cart__item__qty align-middle">{item.qty}</button>
             </td>
             <td className="text-start ps-0">

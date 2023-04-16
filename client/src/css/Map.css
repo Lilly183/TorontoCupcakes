@@ -5,16 +5,7 @@
 .map
 {
     position: relative;
-    /* height: 300px; */
 }
-
-/* .map__iframe
-{
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-} */
 
 .map__iframe
 {
@@ -22,20 +13,9 @@
     padding-bottom: 56.25%;
 }
 
-/* .map__iframe iframe
-{
-    width: 100%;
-} */
-
 .map__iframe iframe
 {
     position: absolute;
     top: 0;
     left: 0;
 }
-
-/* .contact .map
-{
-    height: 400px;
-    margin-bottom: 70px;
-} */

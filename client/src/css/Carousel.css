@@ -9,8 +9,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-    -ms-flex-align: center;
-      align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   justify-items: center;
   margin-bottom: 50px;
 }
@@ -67,7 +67,7 @@
 {
   height: 50px;
   width: 50px;
-  background: rgba(17, 17, 17, 0.5);
+  background: var(--themeColor8);
   border-radius: 50%;
   color: var(--themeColor2);
   font-size: 26px;

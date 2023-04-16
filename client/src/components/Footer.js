@@ -1,8 +1,8 @@
 import React from 'react';
-import '../css/Footer.css'
+import { Link } from 'react-router-dom';
 import SocialMediaLink from './SocialMediaLink';
 import Copyright from './Copyright';
-import { Link } from 'react-router-dom';
+import '../css/Footer.css';
 
 const Footer = () => 
 {
@@ -10,7 +10,6 @@ const Footer = () =>
     [
         {id: 1, route: "/Contact", label: "Contact Us"},
         {id: 2, route: "/About", label: "About"}
-        // {id: 3, route: "/FAQ", label: "FAQ"}
     ];
 
     const socialMediaLinks = 

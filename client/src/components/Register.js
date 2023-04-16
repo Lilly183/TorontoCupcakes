@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import '../css/Form.css';
-import RegisterInputRow from './RegisterInputRow';
 import { Link } from 'react-router-dom';
-import Axios from "axios";
+import Axios from 'axios';
+import RegisterInputRow from './RegisterInputRow';
+import '../css/Form.css';
 
 const Register = () => 
 {

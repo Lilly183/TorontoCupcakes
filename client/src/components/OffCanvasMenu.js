@@ -1,8 +1,7 @@
 import React from 'react';
-import imgRelPath from './template/ImgRelPath';
-import '../css/OffCanvasMenu.css';
 import { CartState } from '../context/Context';
 import { Link } from 'react-router-dom';
+import '../css/OffCanvasMenu.css';
 
 const OffCanvasMenu = () => 
 {
@@ -13,7 +12,7 @@ const OffCanvasMenu = () =>
             <div className="offcanvas-menu-overlay"></div>
             <div className="offcanvas-menu-wrapper p-4">
                 <div className="offcanvas__logo text-center">
-                    <Link to="/"><img src={imgRelPath + "logo.png"} alt=""/></Link>
+                    <Link to="/"><img src={process.env.PUBLIC_URL + "/assets/img/logo.png"} alt=""/></Link>
                 </div>
                 <div id="mobile-menu-wrap" className="mb-4 text-center"></div>
                 <div className="offcanvas__option mb-4 pb-1 text-center">

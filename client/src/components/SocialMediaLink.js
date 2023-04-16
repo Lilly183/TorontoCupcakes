@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/SocialMediaLink.css'
+import '../css/SocialMediaLink.css';
 
 const SocialMediaLink = (props) =>
 {

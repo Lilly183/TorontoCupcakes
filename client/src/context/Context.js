@@ -41,7 +41,7 @@ const Context = ({children}) =>
         {
             if (error.response)
             {
-                console.log("The client made a request, and the server's response was an error. (Did you forget to start the server?)");
+                console.log("The client made a request, and the server's response was an error. (Did you remember to start the server?)");
                 console.log(error.response.data);
             }
 

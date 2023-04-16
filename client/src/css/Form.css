@@ -19,8 +19,6 @@
 .customForm input
 {
     color: var(--themeColor6);
-    /* background: #FFF6FB; */
-    /* background: #FFF9FC; */
     background: #FFF4FA;
     border: 1px solid var(--themeColor10);
     height: 50px;
@@ -74,7 +72,6 @@
 {
     color: #D8000C;
     background-color: #FFB3B3;
-    /* background-color: #FFBABA; */
 }
 
 .successMessage

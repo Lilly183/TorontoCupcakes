@@ -7,9 +7,9 @@ const About = () =>
         <main>
             <section className="about spad">
                 <div className="pageContainer container">
-                    {/* <div className="container pt-2 pb-4">
+                    <div className="container pt-2 pb-4">
                         <h2 className="pageHeading text-start text-black">About</h2>
-                    </div> */}
+                    </div>
 
                     <div className="row mt-3">
                         <div className="col-12">

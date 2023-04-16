@@ -1,7 +1,7 @@
 import React from 'react';
-import { CartState } from '../context/Context'
+import { CartState } from '../context/Context';
 import ProductCard from './ProductCard';
-import "../css/Shop.css";
+import '../css/Shop.css';
 
 const Shop = () => 
 {    

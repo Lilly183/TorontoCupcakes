@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import '../css/Form.css';
-import LoginInputRow from './LoginInputRow';
 import { Link } from 'react-router-dom';
-import Axios from "axios";
+import Axios from 'axios';
+import LoginInputRow from './LoginInputRow';
+import '../css/Form.css';
 
 const Login = () => 
 {
@@ -11,13 +11,13 @@ const Login = () =>
         username: "",
         password: ""
     });
-
+    
+    const [loginStatus, setLoginStatus] = useState(null);
+    
     const handleChange = (e) =>
     {
         setLoginData({ ...loginData, [e.target.name]: e.target.value });
     };
-
-    const [loginStatus, setLoginStatus] = useState(null);
 
     const handleSubmit = (e) =>
     {
@@ -33,7 +33,7 @@ const Login = () =>
                 // Login attempt returns FALSE (Invalid credentials):
                 <h6 className="errorMessage container text-center mt-3 py-1"><strong><i className="fa fa-exclamation-triangle pe-1"></i>Invalid username or password! Please try again.</strong></h6>
 
-            // Set loginStatus to the value of feedbackMessage:  
+            // Set loginStatus state variable to the value of feedbackMessage:  
             setLoginStatus(feedbackMessage);
         })
     };

@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import '../css/ShoppingCart.css'
-
+import { CartState } from '../context/Context';
 import CurrencyFormat from 'react-currency-format';
 import ShoppingCartItem from './ShoppingCartItem';
-
-import { CartState } from '../context/Context';
+import '../css/ShoppingCart.css';
 
 const ShoppingCart = () => 
 {

@@ -7,7 +7,6 @@
   border: 2px solid black;
   border-radius: 2%;
   min-width: 400px;
-  /* right: 0%; */
   background: var(--themeColor2);
 }
 
@@ -32,8 +31,8 @@
   color: var(--themeColor1);
 }
 
-/* Adds a bottom border underneath the shopping cart's headings and one 
-additional border for every item that the shopping cart contains */
+/* Adds a bottom border beneath the shopping cart's headings, plus one 
+additional border per every item that the shopping cart contains */
 
 .shopping__cart__table table thead, .shopping__cart__table table tbody tr
 {
@@ -93,8 +92,6 @@ additional border for every item that the shopping cart contains */
 
 .shopping__cart__table table tbody tr .qty__control:hover
 {
-  /* transition: transform 0.2s linear;
-  transform: scale(1.1); */
   background-color: var(--themeColor3);
 }
 
@@ -158,7 +155,6 @@ additional border for every item that the shopping cart contains */
   .shopping-cart
   {
     width: 450px;
-    /* right: -175px; */
   }
 }
 

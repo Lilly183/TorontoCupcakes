@@ -1,8 +1,8 @@
 import React from 'react';
-import '../css/Contact.css';
 import Map from './Map';
 import BusinessHours from './BusinessHours';
 import ContactInfo from './ContactInfo';
+import '../css/Contact.css';
 
 const Contact = () => 
 {

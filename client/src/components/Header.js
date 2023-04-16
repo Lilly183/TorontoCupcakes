@@ -1,10 +1,9 @@
 import React from 'react';
-import Navbar from './Navbar';
-import '../css/Header.css'
-import { Link } from 'react-router-dom';
-
 import { CartState } from '../context/Context';
+import { Link } from 'react-router-dom';
 import ShoppingCart from './ShoppingCart';
+import Navbar from './Navbar';
+import '../css/Header.css';
 
 const Header = () => 
 {

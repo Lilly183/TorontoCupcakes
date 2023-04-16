@@ -16,9 +16,6 @@
 
 .team__item
 {
-  /* position: relative; */
-  /* height: 360px; */
-  /* min-height: 300px; */
   overflow: hidden;
   margin-bottom: 30px;
   background-size: contain;
@@ -66,7 +63,6 @@
   color: #111111;
   font-size: 14px;
   display: block;
-  /* margin-bottom: 12px; */
 }
 
 .about__text p
@@ -74,6 +70,34 @@
   margin-bottom: 0;
   width: 65%;
   margin: auto;
+}
+
+/* ADDED FROM DEFAULT - CHECK LATER! */
+
+.section-title
+{
+  margin-bottom: 35px;
+}
+
+.section-title span
+{
+  color: #f08632;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.section-title h2
+{
+  font-size: 46px;
+  color: #111111;
+  line-height: 60px;
+  font-weight: 700;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
 }
 
 /*==================================================================*/

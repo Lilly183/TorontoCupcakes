@@ -23,11 +23,131 @@
     --themeColor18: #FAFAFA;
 }
 
+/*==================================================================*/
+/*                       Template Default CSS                       */
+/*==================================================================*/
+
+html, body
+{
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+    color: #11111194;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1
+{
+    font-size: 70px;
+}
+
+h2
+{
+    font-size: 36px;
+}
+
+h3
+{
+    font-size: 30px;
+}
+
+h4
+{
+    font-size: 24px;
+}
+
+h5
+{
+    font-size: 18px;
+}
+
+h6
+{
+    font-size: 16px;
+}
+
+p
+{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #111111;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 0 15px 0;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+input:focus, select:focus, button:focus, textarea:focus
+{
+    outline: none;
+}
+
+a:hover, a:focus
+{
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+}
+
+ul, ol
+{
+    padding: 0;
+    margin: 0;
+}
+
+/*==================================================================*/
+/*                Helper CSS (From Template Default)                */
+/*==================================================================*/
+
+.text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6, .text-white p, .text-white span, .text-white li, .text-white a
+{
+    color: #fff;
+}
+
+.primary-btn
+{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    color: #ffffff;
+    background: #f08632;
+    letter-spacing: 2px;
+}
+
+.site-btn
+{
+    font-size: 14px;
+    color: #ffffff;
+    background: #111111;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 14px 30px;
+}
+
+/*==================================================================*/
+/*                          Custom Global                           */
+/*==================================================================*/
+
 * 
 {
     margin: 0px;
-	padding: 0px; 
-	box-sizing: border-box;
+    padding: 0px; 
+    box-sizing: border-box;
 }
 
 /* header

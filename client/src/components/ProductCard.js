@@ -1,7 +1,7 @@
 import React from 'react';
-import "../css/ProductCard.css";
+import { CartState } from '../context/Context';
 import CurrencyFormat from 'react-currency-format';
-import { CartState } from "../context/Context";
+import '../css/ProductCard.css';
 
 const ProductCard = ({prod}) => 
 {
