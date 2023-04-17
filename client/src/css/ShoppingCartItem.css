@@ -1,0 +1,91 @@
+/*==================================================================*/
+/*                        Shopping Cart Item                        */
+/*==================================================================*/
+
+/*==================================================================*/
+/*                    Column 1: Product Picture                     */
+/*==================================================================*/
+
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__pic
+{
+  -ms-flex: 0 0 60px;
+  flex: 0 0 60px;
+}
+
+/*==================================================================*/
+/*              Column 2: Product Name and Unit Price               */
+/*==================================================================*/
+
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text h6
+{
+  color: var(--themeColor6);
+  font-size: 12.5px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text h5
+{
+  color: var(--themeColor6);
+  font-weight: 600;
+  font-size: 12.5px;
+}
+
+.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text span
+{
+  padding: 0;
+}
+
+/*==================================================================*/
+/*                    Column 3: Product Quantity                    */
+/*==================================================================*/
+
+/* Plus (+) and Minus (-) Controls: */
+
+.shopping__cart__table table tbody tr .qty__control
+{
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopping__cart__table table tbody tr .qty__control:hover
+{
+  background-color: var(--themeColor3);
+}
+
+/* Current Quantity */
+
+.shopping__cart__table table tbody tr td .product__cart__item__qty
+{
+  height: 22px;
+  width: 22px;
+  font-size: 12.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*==================================================================*/
+/*                    Column 4: Product Subtotal                    */
+/*==================================================================*/
+
+.shopping__cart__table table tbody tr td.cart__price
+{
+  color: var(--themeColor6);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/*==================================================================*/
+/*                       Column 5: Trash Icon                       */
+/*==================================================================*/
+
+.shopping__cart__table table tbody tr .fa-trash:hover
+{
+  cursor: pointer;
+  color: var(--themeColor1);
+  transform: scale(1.2);
+  transition: ease 0.2s;
+}

@@ -8,10 +8,10 @@ app.use(express.json());
 
 const db = mysql.createPool
 ({
-    host: "brtploi5rrby99qjfamm-mysql.services.clever-cloud.com",
-    user: "u8trsxgxjqyefuc4",
-    password: "JUzdQ4uhnLRpieg3ejRT",
-    database: "brtploi5rrby99qjfamm"
+    host: process.env.HOSTNAME,
+    user: process.env.USERNAME,
+    password: process.env.PASSWORD,
+    database: process.env.DB
 });
 
 /*
@@ -172,7 +172,7 @@ app.get("/api/fetchProducts", async (req, res) =>
     });
 })
 
-app.listen(5000, () =>
+app.listen(process.env.PORT, () =>
 {
     console.log("Server running on port 5000!");
 });
