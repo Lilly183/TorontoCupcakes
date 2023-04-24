@@ -62,33 +62,19 @@ const Login = () =>
         <main>
             <section className="spad">
                 <div className="pageContainer container">
-                    {/* <div className="row">
-                        <div className="col-12"> */}
-
-                            <div className="container pt-2 pb-4">
-                                {/* <div className="row">
-                                    <div className="col-12"> */}
-                                        <h2 className="pageHeading text-start text-black">Login</h2>
-                                    {/* </div>
-                                </div> */}
+                    <div className="container pt-2 pb-4">
+                        <h2 className="pageHeading text-start text-black">Login</h2>
+                    </div>
+                    <div className="container">
+                        <form id="loginForm" className="customForm px-4 py-2" onSubmit={handleSubmit}>
+                            {loginFormInputs}
+                        </form>
+                        <div className="row text-center py-2">
+                            <div className="col-12 py-1">
+                                <button type="submit" form="loginForm" className="btn btn-submit w-100">Sign-In</button>
                             </div>
-
-                            <div className="container">
-                                {/* <div className="row justify-content-center">
-                                    <div className="col-12"> */}
-                                        <form id="loginForm" className="customForm px-4 py-2" onSubmit={handleSubmit}>
-                                            {loginFormInputs}
-                                        </form>
-                                        <div className="row text-center py-2">
-                                            <div className="col-12 py-1">
-                                                <button type="submit" form="loginForm" className="btn btn-submit w-100">Sign-In</button>
-                                            </div>
-                                        </div>
-                                    {/* </div>
-                                </div> */}
-                            </div>
-                        {/* </div>
-                    </div> */}
+                        </div>
+                    </div>                    
                 </div>
                 {loginStatus}
                 <h6 className="text-center text-black mt-2 py-1">Don't have an account? <Link to="/Register" className="themeLink fw-semibold">Register here!</Link></h6>

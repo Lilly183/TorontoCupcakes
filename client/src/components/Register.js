@@ -20,7 +20,7 @@ const Register = () =>
         /*
         Note that this uses e.target.name (the value of the name attribute for whatever element is responsible for firing 
         the event) to set a corresponding property within the registerData object. If the value of prop.name (which also 
-        defines the name attribute for any given <Input Group/> component) does not match exactly the name of a property 
+        defines the name attribute for any given <Input Row/> component) does not match exactly the name of a property 
         within registerData, we're referring to something that doesn't exist, so how can we possibly update its value with 
         the contents of the <input> tag? 
         */
@@ -66,33 +66,19 @@ const Register = () =>
         <main>
             <section className="spad">
                 <div className="pageContainer container pb-4">
-                    {/* <div className="row">
-                        <div className="col-12"> */}
-                            
-                            <div className="container pt-2 pb-4">
-                                {/* <div className="row">
-                                    <div className="col-12"> */}
-                                        <h2 className="pageHeading text-start text-black">Register</h2>
-                                    {/* </div>
-                                </div> */}
+                    <div className="container pt-2 pb-4">
+                        <h2 className="pageHeading text-start text-black">Register</h2>
+                    </div>                    
+                    <div className="container">
+                        <form className="customForm pt-0 px-4 pb-4" onSubmit={handleSubmit}>
+                            {registerFormInputs}
+                            <div className="row text-center pt-2">
+                                <div className="col-12 py-1">
+                                    <button type="submit" className="btn btn-submit w-100">Submit</button>
+                                </div>
                             </div>
-
-                            <div className="container">
-                                {/* <div className="row justify-content-center">
-                                    <div className="col-12"> */}
-                                        <form className="customForm pt-0 px-4 pb-4" onSubmit={handleSubmit}>
-                                            {registerFormInputs}
-                                            <div className="row text-center pt-2">
-                                                <div className="col-12 py-1">
-                                                    <button type="submit" className="btn btn-submit w-100">Submit</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    {/* </div>
-                                </div> */}
-                            </div>
-                        {/* </div>
-                    </div> */}
+                        </form>
+                    </div>
                 </div>
                 <h6 className="text-center text-black mt-2 py-1">Already have an account with us? <Link to="/Login" className="themeLink fw-semibold">Sign-in here!</Link></h6>
             </section>
