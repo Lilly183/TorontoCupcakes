@@ -17,7 +17,6 @@
 .team__item
 {
   overflow: hidden;
-  margin-bottom: 30px;
   background-size: contain;
 }
 
@@ -68,26 +67,17 @@
 .about__text p
 {
   margin-bottom: 0;
-  width: 65%;
+  font-size: 13.5pt;
   margin: auto;
-}
-
-/* ADDED FROM DEFAULT - CHECK LATER! */
-
-.section-title
-{
-  margin-bottom: 35px;
 }
 
 .section-title span
 {
-  color: #f08632;
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 4px;
   display: block;
-  margin-bottom: 10px;
 }
 
 .section-title h2

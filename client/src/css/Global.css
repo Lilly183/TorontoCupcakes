@@ -3,7 +3,7 @@
     --headerHeight: 164px;
     --footerHeight: 196px;
     
-    --themeColor1: #E91E63;     /* #f08632; */
+    --themeColor1: #E91E63;
     --themeColor2: #ffffff;
     --themeColor3: #bbbbbb;
     --themeColor4: #bababa;
@@ -150,25 +150,6 @@ ul, ol
     box-sizing: border-box;
 }
 
-/* header
-{
-    height: var(--headerHeight);
-}
-
-body
-{
-    min-height: 100vh;
-    padding-bottom: var(--footerHeight);
-    position: relative;
-}
-
-footer
-{
-    height: var(--footerHeight);
-    position: absolute;
-    bottom: 0;
-} */
-
 main
 {
     min-height: calc(100vh - (var(--headerHeight)) - (var(--footerHeight)));
@@ -182,7 +163,7 @@ main
 .spad
 {
     padding-top: 45px;
-    padding-bottom: 60px;
+    padding-bottom: 45px;
 }
 
 .pageHeading
